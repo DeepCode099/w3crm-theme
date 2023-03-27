@@ -3,7 +3,6 @@ package com.adjecti.w3crmtheme.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import jakarta.servlet.jsp.PageContext;
 
 @Controller
 public class ThemeController {

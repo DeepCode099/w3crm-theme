@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 
+<%@include file="left-nav-json.jsp" %> 
 <div class="deznav">
             <div class="deznav-scroll mm-active">
 				<ul class="metismenu mm-show" id="menu">
-					<li class="menu-title">YOUR COMPANY </li>
+					<li class="menu-title">${company}</li>
 					<li class="mm-active"><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -12,11 +13,11 @@
 								<path d="M7.5 18.3333V10H12.5V18.3333" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>	
-						<span class="nav-text">Dashboard</span>
+						<span class="nav-text">${dash}</span>
 						</a>
 						<ul aria-expanded="false" class="mm-collapse mm-show left" style="">
-							<li class="mm-active"><a href="./index.html" class="mm-active">Dashboard Light</a></li>
-							<li><a href="./index-2.html">Dashboard Dark</a></li>
+							<li class="mm-active"><a href="./index.html" class="mm-active">${dashL}</a></li>
+							<li><a href="./index-2.html">${dashD}</a></li>
 						</ul>
 					</li>
 					<li><a href="employee.jsp" class="" aria-expanded="false">
@@ -26,7 +27,10 @@
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M10.986 11.0054C13.3126 11.0054 15.1983 9.11881 15.1983 6.79223C15.1983 4.46564 13.3126 2.57993 10.986 2.57993C8.65944 2.57993 6.77285 4.46564 6.77285 6.79223C6.76499 9.11096 8.63849 10.9975 10.9563 11.0054H10.986Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>	
-							<span class="nav-text">Employees</span>
+						
+					
+						
+				<span class="nav-text">${emp}</span> <!-- display the value in the JSP code -->
 						</a>
 					</li>
 					<li><a href="" class="" aria-expanded="false">
@@ -36,7 +40,7 @@
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M19.8848 9.1223C19.934 6.33756 16.5134 1.84879 12.345 1.92599C12.0208 1.93178 11.7612 2.20195 11.7468 2.5252C11.6416 4.81493 11.7834 7.78204 11.8626 9.12713C11.8867 9.5459 12.2157 9.87493 12.6335 9.89906C14.0162 9.97818 17.0914 10.0862 19.3483 9.74467C19.6552 9.69835 19.88 9.43204 19.8848 9.1223Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>
-						<span class="nav-text">Core HR</span>
+						<span class="nav-text">${hr}</span>
 						</a>
 					</li>
 					<li><a href="finance.jsp" class="" aria-expanded="false">
@@ -47,7 +51,7 @@
 								<path d="M13.6808 2.86012H7.01867C4.25818 2.86012 2.54651 4.81512 2.54651 7.57561V14.9845C2.54651 17.7449 4.22462 19.6915 7.01867 19.6915H14.9058C17.6663 19.6915 19.3779 17.7449 19.3779 14.9845V8.53213" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>	
-						<span class="nav-text">Finance</span>
+						<span class="nav-text">${finance}</span>
 						</a>
 					</li>
 					<li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
@@ -58,7 +62,7 @@
 								<path d="M13.9014 4.21895L18.0869 8.40445" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>	
-						<span class="nav-text">Tasks</span>
+						<span class="nav-text">${task}</span>
 						</a>
 						<ul aria-expanded="false" class="mm-collapse left" style="">
 							<li><a href="tasks.jsp">Tasks</a></li>
@@ -72,7 +76,7 @@
 								<path d="M7.73657 11.0002L9.91274 13.1754L14.2632 8.82493" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>	
-							<span class="nav-text">Performance</span>
+							<span class="nav-text">${performance}</span>
 						</a>
 					</li>
 					<li><a href="project.jsp" class="" aria-expanded="false">
@@ -84,7 +88,7 @@
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M15.2952 1.83333H6.70474C3.7103 1.83333 1.83331 3.95274 1.83331 6.95306V15.0469C1.83331 18.0473 3.70157 20.1667 6.70474 20.1667H15.2952C18.2984 20.1667 20.1666 18.0473 20.1666 15.0469V6.95306C20.1666 3.95274 18.2984 1.83333 15.2952 1.83333Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>	
-							<span class="nav-text">Projects</span>
+							<span class="nav-text">${project}</span>
 						</a>
 					</li>
 					<li><a href="reports.jsp" class="" aria-expanded="false">
@@ -96,7 +100,7 @@
 								<path d="M11.2229 10.6388H8.14655" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>	
-							<span class="nav-text">Reports</span>
+							<span class="nav-text">${report}</span>
 						</a>
 					</li>
 					<li><a href="manage-client.jsp" class="" aria-expanded="false">
@@ -108,7 +112,7 @@
 								<path d="M17.0458 13.5045C18.4675 13.7163 19.4603 14.2149 19.4603 15.2416C19.4603 15.9483 18.9928 16.4067 18.2374 16.6936" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
 						</div>	
-							<span class="nav-text">Manage Clients</span>
+							<span class="nav-text">${clients}</span>
 						</a>
 					</li>
 					<li class="menu-title">OUR FEATURES</li>

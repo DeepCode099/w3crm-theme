@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-
+<%@include file="header-json.jsp" %>
 <div class="header">
             <div class="header-content">
                 <nav class="navbar navbar-expand">
@@ -246,8 +246,8 @@
 												<img src="theme/images/1(1).jpg" alt="">
 											</div>
 											<div class="header-info">
-												<h6>Thomas Fleming</h6>
-												<p>info@gmail.com</p>
+												<h6>${name}</h6>
+												<p>${email}</p>
 											</div>
 											
 										</div>
@@ -258,8 +258,8 @@
 												<div class="products">
 													<img src="theme/images/1(1).jpg" class="avatar avatar-md" alt="">
 													<div>
-														<h6>Thomas Fleming</h6>
-														<span>Web Designer</span>	
+														<h6>${username}</h6>
+														<span>${designation}</span>	
 													</div>	
 												</div>
 											</div>
