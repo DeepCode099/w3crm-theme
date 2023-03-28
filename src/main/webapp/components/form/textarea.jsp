@@ -6,11 +6,7 @@
 		String rows=request.getParameter("rows");
 		String cols=request.getParameter("cols");
 		String name=request.getParameter("name");
-		String id=request.getParameter("id");
-		
-    
+		String id=request.getParameter("id"); 
     %> 
-<div class ="form-group">
-<label></label>
+
 <textarea name = "<%=name %>" type ="text" id= <%=id %> placeholder="<%=placeholder %>"  rows= "<%=rows %>" cols = "<%= cols%>" ></textarea>
-</div>

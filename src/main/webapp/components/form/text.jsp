@@ -9,9 +9,4 @@
     String id=request.getParameter("id");
   %> 
    
-    
-    
-<div class="form-group"> 
-<label for="<%=id%>"></label> 
 <input type="text" id="<%=id %>" name="<%=name %>" placeholder="<%=placeholder %>">
-</div>  

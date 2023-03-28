@@ -7,9 +7,5 @@
 		String name=request.getParameter("name");
 
    		 %>
-    
- <div class ="form-group">
-  <label></label>   
+     
 <input name ="<%=name %>" type = "checkbox" id = "<%=id %>" >
-<label for = <%=id %>>A </label>
-</div>

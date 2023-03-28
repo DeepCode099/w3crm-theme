@@ -7,8 +7,5 @@
 		String placeholder=request.getParameter("placeholder");
 
     %>
-    
- <div class ="form-group">
-  <label></label>
+
 <input name ="<%=name %>" type = "text" id = "<%=id %>" placeholder = "<%= placeholder%>">
-</div>

@@ -8,9 +8,5 @@
 		String name=request.getParameter("name");
 
     %>
-    
- <div class ="form-group">
-  <label></label>   
-<input name ="<%=name %>" type = "date" class = "form-control" id = "<%=id %>" >
-</div>
-<br>
+
+<input name ="<%=name %>" type = "month"  id = "<%=id %>" >

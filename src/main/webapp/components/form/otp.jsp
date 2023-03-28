@@ -4,7 +4,4 @@
     
     <%String placeholder=request.getParameter("placeholder"); %>
 
-
-<div class="form-group">
 <input type="" id=" " name="" placeholder="<%=placeholder %>">
-</div>

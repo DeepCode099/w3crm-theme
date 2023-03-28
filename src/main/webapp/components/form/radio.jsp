@@ -8,9 +8,4 @@
   %> 
 
 
-
-<div class="form-group">
- <label for="<%=id %> ">Married</label>
 <input type="radio" id="<%=id %> " name="<%=name %>" >
-
-</div>

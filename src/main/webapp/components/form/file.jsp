@@ -4,11 +4,6 @@
      <%
 		String id=request.getParameter("id");
 		String name=request.getParameter("name");
-
     %>
-    
-    
- <div class ="form-group">
- <label></label>   
+  
 <input name ="<%=name %>" type = "file" id = "<%=id %>" >
-</div>
