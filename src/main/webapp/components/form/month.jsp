@@ -11,5 +11,6 @@
     
  <div class ="form-group">
   <label></label>   
-<input name ="<%=name %>" type = "date" id = "<%=id %>" >
+<input name ="<%=name %>" type = "date" class = "form-control" id = "<%=id %>" >
 </div>
+<br>
