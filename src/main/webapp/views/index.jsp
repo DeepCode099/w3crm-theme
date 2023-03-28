@@ -699,8 +699,11 @@
   width: 200%;
   height: 200%;
 }</style></head>
-<body data-typography="poppins" data-theme-version="light" data-layout="vertical" data-nav-headerbg="color_4" data-headerbg="color_4" data-sidebar-style="full" data-sidebarbg="color_1" data-sidebar-position="fixed" data-header-position="fixed" data-container="wide" direction="ltr" data-primary="color_1" data-secondary="color_1">
+<body style="padding:50px;">
 
+<%@ include file="../components/renderer/form_rendering.jsp" %>
+
+<%-- 
     <!--*******************
         Preloader start
     ********************-->
@@ -1268,9 +1271,9 @@
 		<!--**********************************
             Content body start
         ***********************************-->
-       <%-- <%@ include file="body_content.jsp" %>
+       <%@ include file="body_content.jsp" %>
 		
-        --%>  <!--**********************************
+         <!--**********************************
             Content body end
         ***********************************-->
 		<div class="offcanvas offcanvas-end customeoff" tabindex="-1" id="offcanvasExample">
@@ -1563,6 +1566,7 @@
 			</div>
 		  </div>
 		</div>
+		 --%>
 		
         <!--**********************************
             Footer start
