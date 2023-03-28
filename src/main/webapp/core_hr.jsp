@@ -16,7 +16,7 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- PAGE TITLE HERE -->
-	<title>W3CRM Customer Relationship Management</title>
+	<title>W3CRM Customer Relationship Management!</title>
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="theme/theme/images/favicon.png">
