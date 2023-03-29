@@ -20,7 +20,7 @@
 							<li><a href="./index-2.html">${dashD}</a></li>
 						</ul>
 					</li>
-					<li><a href="employee.jsp" class="" aria-expanded="false">
+					<li><a href="employee" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M10.986 14.0673C7.4407 14.0673 4.41309 14.6034 4.41309 16.7501C4.41309 18.8969 7.4215 19.4521 10.986 19.4521C14.5313 19.4521 17.5581 18.9152 17.5581 16.7693C17.5581 14.6234 14.5505 14.0673 10.986 14.0673Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -33,7 +33,7 @@
 				<span class="nav-text">${emp}</span> <!-- display the value in the JSP code -->
 						</a>
 					</li>
-					<li><a href="" class="" aria-expanded="false">
+					<li><a href="core-hr" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M15.8381 12.7317C16.4566 12.7317 16.9757 13.2422 16.8811 13.853C16.3263 17.4463 13.2502 20.1143 9.54009 20.1143C5.43536 20.1143 2.10834 16.7873 2.10834 12.6835C2.10834 9.30245 4.67693 6.15297 7.56878 5.44087C8.19018 5.28745 8.82702 5.72455 8.82702 6.36429C8.82702 10.6987 8.97272 11.8199 9.79579 12.4297C10.6189 13.0396 11.5867 12.7317 15.8381 12.7317Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -43,7 +43,7 @@
 						<span class="nav-text">${hr}</span>
 						</a>
 					</li>
-					<li><a href="finance.jsp" class="" aria-expanded="false">
+					<li><a href="finance" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M6.64111 13.5497L9.38482 9.9837L12.5145 12.4421L15.1995 8.97684" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -65,11 +65,11 @@
 						<span class="nav-text">${task}</span>
 						</a>
 						<ul aria-expanded="false" class="mm-collapse left" style="">
-							<li><a href="tasks.jsp">Tasks</a></li>
-							<li><a href="tasks_summary.jsp">Task Summary</a></li>
+							<li><a href="tasks">Tasks</a></li>
+							<li><a href="tasks-summary">Task Summary</a></li>
 						</ul>
 					</li>
-					<li><a href="performance.jsp" class="" aria-expanded="false">
+					<li><a href="performance" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9732 2.52102H7.0266C4.25735 2.52102 2.52118 4.48177 2.52118 7.25651V14.7438C2.52118 17.5186 4.2491 19.4793 7.0266 19.4793H14.9723C17.7507 19.4793 19.4795 17.5186 19.4795 14.7438V7.25651C19.4795 4.48177 17.7507 2.52102 14.9732 2.52102Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -79,7 +79,7 @@
 							<span class="nav-text">${performance}</span>
 						</a>
 					</li>
-					<li><a href="project.jsp" class="" aria-expanded="false">
+					<li><a href="projects" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M6.75713 9.35157V15.64" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -91,7 +91,7 @@
 							<span class="nav-text">${project}</span>
 						</a>
 					</li>
-					<li><a href="reports.jsp" class="" aria-expanded="false">
+					<li><a href="reports" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5096 2.53165H7.41104C5.50437 2.52432 3.94146 4.04415 3.89654 5.9499V15.7701C3.85437 17.7071 5.38979 19.3121 7.32671 19.3552C7.35512 19.3552 7.38262 19.3561 7.41104 19.3552H14.7343C16.6538 19.2773 18.1663 17.6915 18.1525 15.7701V7.36798L13.5096 2.53165Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -103,7 +103,7 @@
 							<span class="nav-text">${report}</span>
 						</a>
 					</li>
-					<li><a href="manage-client.jsp" class="" aria-expanded="false">
+					<li><a href="manage-clients" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M8.79222 13.9396C12.1738 13.9396 15.0641 14.452 15.0641 16.4989C15.0641 18.5458 12.1931 19.0729 8.79222 19.0729C5.40972 19.0729 2.52039 18.5651 2.52039 16.5172C2.52039 14.4694 5.39047 13.9396 8.79222 13.9396Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round"></path>
