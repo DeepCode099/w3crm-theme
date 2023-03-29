@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from w3crm.dexignzone.com/xhtml/finance.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
+
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,13 +19,12 @@
 	<title>W3CRM Customer Relationship Management</title>
 	
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<link rel="shortcut icon" type="image/png" href="theme/images/favicon.png">
 	
 	<link href="theme/css/bootstrap-select.min.css" rel="stylesheet">
 	<link href="theme/css/jquery.dataTables.min.css" rel="stylesheet">
 	<link href="theme/css/buttons.dataTables.min.css" rel="stylesheet">
 	<link href="theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-	
 	<!-- tagify-css -->
 	<link href="theme/css/tagify.css" rel="stylesheet">
 	
@@ -35,10 +34,7 @@
 </head>
 <body>
 
-  
-        <!--**********************************
-            Nav header start
-        ***********************************-->
+    
         <div class="nav-header">
             <a href="index.html" class="brand-logo">
 				<svg class="logo-abbr" width="39" height="23" viewBox="0 0 39 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -572,7 +568,7 @@
 		<!--**********************************
             Header start
         ***********************************-->
-				<%@include file="views/header.jsp" %>
+		       <%@include file="header.jsp" %>
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -580,7 +576,7 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
-              <%@include file="views/side_navigation.jsp" %>
+               <%@include file="left_side_navigation.jsp" %>
         <!--**********************************
             Sidebar end
         ***********************************-->
@@ -592,7 +588,7 @@
             <!-- row -->	
 			<div class="page-titles">
 				<ol class="breadcrumb">
-					<li><h5 class="bc-title">Finance</h5></li>
+					<li><h5 class="bc-title">Performance</h5></li>
 					<li class="breadcrumb-item"><a href="javascript:void(0)">
 						<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M2.125 6.375L8.5 1.41667L14.875 6.375V14.1667C14.875 14.5424 14.7257 14.9027 14.4601 15.1684C14.1944 15.4341 13.8341 15.5833 13.4583 15.5833H3.54167C3.16594 15.5833 2.80561 15.4341 2.53993 15.1684C2.27426 14.9027 2.125 14.5424 2.125 14.1667V6.375Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
@@ -600,308 +596,256 @@
 						</svg>
 						Home </a>
 					</li>
-					<li class="breadcrumb-item active"><a href="javascript:void(0)">Finance</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0)">Performance</a></li>
 				</ol>
 				<a class="text-primary fs-13" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">+ Add Task</a>
 			</div>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xl-3 col-xxl-4">
-						<div class="card h-auto">
-							<div class="card-header">
-								<h4 class="heading mb-0">Add New Account </h4>
-							</div>
-							<div class="card-body">
-								<form class="finance-hr">
-									<div class="form-group mb-3">
-										<label class="text-secondary font-w500"> Account Title<span class="text-danger">*</span>
-									  </label>
-									  <input type="text" class="form-control"  placeholder="Account Title">
-									</div>
-									<div class="form-group mb-3">
-									  <label> Amount<span class="text-danger">*</span>
-									  </label>
-									  <div class="input-group">
-										<div class="input-group-text">$</div>
-										<input type="text" class="form-control" placeholder="Initial Balance">
-									  </div>
-									</div>
-									<div class="form-group mb-3">
-										<label class="text-secondary"> Account No<span class="text-danger">*</span>
-									  </label>
-									  <input type="text" class="form-control"  placeholder="Account Title">
-									</div>
-									<div class="form-group mb-3">
-										<label class="text-secondary">Branch Code<span class="text-danger">*</span>
-									  </label>
-									  <input type="text" class="form-control"  placeholder="Branch Code">
-									</div>
-									<div class="form-group mb-3">
-										<label class="text-secondary">Branch Name<span class="text-danger">*</span>
-									  </label>
-									  <input type="text" class="form-control"  placeholder="Branch Name">
-									</div>
-									<button type="submit" class="btn btn-primary mb-3">Confirm</button>
-								</form>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-9 col-xxl-8">
+					<div class="col-xl-12">
 						<div class="card">
 							<div class="card-body p-0">
 								<div class="table-responsive active-projects manage-client">
 								<div class="tbl-caption">
-									<h4 class="heading mb-0">Finance</h4>
+									<h4 class="heading mb-0">Performance Indicators</h4>
 								</div>
-									<table id="empoloyees-tbl1" class="table">
+									<table id="empoloyees-tblwrapper" class="table">
 										<thead>
 											<tr>
-												<th>Account Title</th>
-												<th>Amount</th>
-												<th>Account No</th>
-												<th>Branch Code</th>
-												<th>Branch Name</th>
+												<th>Title</th>
+												<th>Designation</th>
+												<th>Rating</th>
+												<th>Added By</th>
+												<th>Created Date</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Saving</a>
+													<a href="javascript:void(0)">Jack</a>
 												</td>
-												<td><span>500 $</span></td>
+												<td><span>Civil Engineer</span></td>
 												<td>
-													<span>1234500000000</span>
-												</td>
-												<td>
-													<span>1234</span>
-												</td>
-												<td>
-													<span>Bank Of Uk</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)" class="text-primary">Salary </a>
-												</td>
-												<td><span>700 $</span></td>
-												<td>
-													<span>678900000000</span>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>4.0</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>John Marry</span>
 												</td>
 												<td>
-													<span>Bank Of Lundon</span>
+													<span>14 Feb 2023</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
+													<a href="javascript:void(0)">Khalid</a>
 												</td>
-												<td><span>700 $</span></td>
+												<td><span>Software Engineer</span></td>
 												<td>
-													<span>678900000000</span>
-												</td>
-												<td>
-													<span>5678</span>
-												</td>
-												<td>
-													<span>Bank Of Lundon</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)" class="text-primary">Recurring deposit</a>
-												</td>
-												<td><span>6000 $</span></td>
-												<td>
-													<span>678900000000</span>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>2.1</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>Caty Fsa</span>
 												</td>
 												<td>
-													<span>Bank Of India</span>
+													<span>18 Feb 2023</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Saving</a>
+													<a href="javascript:void(0)">Ethan</a>
 												</td>
-												<td><span>500 $</span></td>
+												<td><span>Website Engineer</span></td>
 												<td>
-													<span>1234500000000</span>
-												</td>
-												<td>
-													<span>1234</span>
-												</td>
-												<td>
-													<span>Bank Of Uk</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)" class="text-primary">Salary </a>
-												</td>
-												<td><span>700 $</span></td>
-												<td>
-													<span>678900000000</span>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>3.1</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>John Marry</span>
 												</td>
 												<td>
-													<span>Bank Of Lundon</span>
+													<span>19 Feb 2023</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
+													<a href="javascript:void(0)">Peter</a>
 												</td>
-												<td><span>700 $</span></td>
+												<td><span>Software Engineer</span></td>
 												<td>
-													<span>678900000000</span>
-												</td>
-												<td>
-													<span>5678</span>
-												</td>
-												<td>
-													<span>Bank Of Lundon</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
-												</td>
-												<td><span>700 $</span></td>
-												<td>
-													<span>678900000000</span>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>4.0</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>Geeta Marry</span>
 												</td>
 												<td>
-													<span>Bank Of Lundon</span>
+													<span>14 Feb 2023</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Salary </a>
+													<a href="javascript:void(0)">Aaron</a>
 												</td>
-												<td><span>700 $</span></td>
+												<td><span>Civil Engineer</span></td>
 												<td>
-													<span>678900000000</span>
-												</td>
-												<td>
-													<span>5678</span>
-												</td>
-												<td>
-													<span>Bank Of Lundon</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
-												</td>
-												<td><span>700 $</span></td>
-												<td>
-													<span>678900000000</span>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>4.0</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>John Marry</span>
 												</td>
 												<td>
-													<span>Bank Of Lundon</span>
+													<span>14 Feb 2023</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
+													<a href="javascript:void(0)">Scott</a>
 												</td>
-												<td><span>700 $</span></td>
+												<td><span>Software Engineer</span></td>
 												<td>
-													<span>678900000000</span>
-												</td>
-												<td>
-													<span>5678</span>
-												</td>
-												<td>
-													<span>Bank Of Lundon</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)" class="text-primary">Recurring deposit</a>
-												</td>
-												<td><span>6000 $</span></td>
-												<td>
-													<span>678900000000</span>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>2.1</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>Caty Fsa</span>
 												</td>
 												<td>
-													<span>Bank Of India</span>
+													<span>18 Feb 2023</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Recurring deposit</a>
+													<a href="javascript:void(0)">Morris</a>
 												</td>
-												<td><span>6000 $</span></td>
+												<td><span>Website Engineer</span></td>
 												<td>
-													<span>678900000000</span>
-												</td>
-												<td>
-													<span>5678</span>
-												</td>
-												<td>
-													<span>Bank Of India</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
-												</td>
-												<td><span>700 $</span></td>
-												<td>
-													<span>678900000000</span>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>3.1</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>John Marry</span>
 												</td>
 												<td>
-													<span>Bank Of Lundon</span>
+													<span>19 Feb 2023</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Salary </a>
+													<a href="javascript:void(0)">Robin</a>
 												</td>
-												<td><span>700 $</span></td>
+												<td><span>Software Engineer</span></td>
 												<td>
-													<span>678900000000</span>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>4.0</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>Geeta Marry</span>
 												</td>
 												<td>
-													<span>Bank Of Lundon</span>
+													<span>14 Feb 2023</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
+													<a href="javascript:void(0)">Samuel</a>
 												</td>
-												<td><span>700 $</span></td>
+												<td><span>Civil Engineer</span></td>
 												<td>
-													<span>678900000000</span>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>4.0</span>
 												</td>
 												<td>
-													<span>5678</span>
+													<span>John Marry</span>
 												</td>
 												<td>
-													<span>Bank Of Lundon</span>
+													<span>14 Feb 2023</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)">Cedric</a>
+												</td>
+												<td><span>Software Engineer</span></td>
+												<td>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>2.1</span>
+												</td>
+												<td>
+													<span>Caty Fsa</span>
+												</td>
+												<td>
+													<span>18 Feb 2023</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)">Sandy</a>
+												</td>
+												<td><span>Website Engineer</span></td>
+												<td>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>3.1</span>
+												</td>
+												<td>
+													<span>John Marry</span>
+												</td>
+												<td>
+													<span>19 Feb 2023</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)">Joe</a>
+												</td>
+												<td><span>Software Engineer</span></td>
+												<td>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<i class="fa-sharp fa-solid fa-star text-orange"></i>
+													<i class="fa-solid fa-star-half-stroke text-orange"></i>
+													<span>4.0</span>
+												</td>
+												<td>
+													<span>Geeta Marry</span>
+												</td>
+												<td>
+													<span>14 Feb 2023</span>
 												</td>
 											</tr>
 										</tbody>
@@ -918,74 +862,6 @@
         <!--**********************************
             Content body end
         ***********************************-->
-		<!-- Scrollable modal -->
-		<div class="modal fade" id="modalGrid">
-			<div class="modal-dialog modal-lg">
-				<div class="modal-content">
-				  <div class="modal-header">
-					<h5 class="modal-title" id="#gridSystemModal">Add Employee</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				  </div>	
-					<div class="modal-body">
-					  <div class="container-fluid">
-						<div>
-							<label>Profile Picture</label>
-							<div class= "setting-img d-flex align-items-center mb-4">
-								 <div class="avatar-upload d-flex align-items-center">
-									<div class=" change position-relative d-flex">
-										<div class="avatar-preview">
-											<div id="imagePreview" style="background-image: url(page-error-404.html);"> 			
-											</div>
-										</div>
-										<div class="change-btn d-flex align-items-center flex-wrap">
-											<input type='file' class="form-control"  id="imageUpload" accept=".png, .jpg, .jpeg" >
-											<label for="imageUpload" class="dlab-upload">Choose File</label>
-											<a href="javascript:void" class="btn remove-img ms-2">Remove</a>
-										</div>
-									</div>
-										
-								</div>
-									
-							</div>
-						</div>
-						<form>
-							<div class="row">
-								<div class="col-xl-6 mb-3">
-									<label for="exampleFormControlInput1" class="form-label">Employee ID <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-								</div>	
-								<div class="col-xl-6 mb-3">
-									<label for="exampleFormControlInput2" class="form-label">Employee Name<span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="exampleFormControlInput2" placeholder="">
-								</div>	
-								<div class="col-xl-6 mb-3">
-									<label for="exampleFormControlInput3" class="form-label">Employee Email<span class="text-danger">*</span></label>
-									<input type="email" class="form-control" id="exampleFormControlInput3" placeholder="">
-								</div>
-								<div class="col-xl-6 mb-3">
-									<label for="exampleFormControlInput4" class="form-label">Password<span class="text-danger"></span></label>
-									<input type="password" class="form-control" id="exampleFormControlInput4" placeholder="">
-								</div>								
-							</div>
-						</form>
-					  </div>
-					</div>		
-				</div>		
-			</div>		
-		</div>		
-		
-        <!--**********************************
-            Footer start
-        ***********************************-->
-        <div class="footer">
-            <div class="copyright">
-               <p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
-            </div>
-        </div>
-        <!--**********************************
-            Footer end
-        ***********************************-->
-		
 		<div class="offcanvas offcanvas-end customeoff" tabindex="-1" id="offcanvasExample1">
 		  <div class="offcanvas-header">
 		  <h5 class="modal-title" id="#gridSystemModal1">Add New Task</h5>
@@ -1100,50 +976,20 @@
 			  </div>
 		  </div>
 		</div>	
-		<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
-		  <div class="modal-dialog modal-dialog-center">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<h1 class="modal-title fs-5" id="exampleModalLabel1">Invite Employee</h1>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			  </div>
-			  <div class="modal-body">
-					<div class="row">
-						<div class="col-xl-12">
-							<input type="email" class="form-control" placeholder="hello@gmail.com">
-							<label class="form-label mt-3">Employment date<span class="text-danger">*</span></label>
-							<input class="form-control" type="date">
-							<div class="row">
-								<div class="col-xl-6">
-									<label class="form-label mt-3">First Name<span class="text-danger">*</span></label>
-									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Name">
-									</div>
-								</div>
-								<div class="col-xl-6">
-									<label class="form-label mt-3">Last Name<span class="text-danger">*</span></label>
-									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Surname">
-									</div>
-								</div>
-							</div>
-							<div class="mt-3 invite">
-								<label class="form-label">Send invitation email<span class="text-danger">*</span></label>
-								<input type ="email" class="form-control " placeholder="+ invite">
-							</div>
-							
-					
-						</div>
-					</div>
-					
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
-			  </div>
-			</div>
-		  </div>
-		</div>
+		
+		
+		
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+               <p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
 
 		<!--**********************************
            Support ticket button start
@@ -1164,31 +1010,27 @@
     ***********************************-->
     <!-- Required vendors -->
     <script src="theme/js/global.min.js"></script>
+	<script src="theme/js/jquery.nice-select.min.js"></script>
 	<script src="theme/js/bootstrap-select.min.js"></script>
 	
-	<!-- tagify -->
-	<script src="theme/jsp/tagify.js"></script>
 	
+	<!-- Dashboard 1 -->
 	<script src="theme/js/jquery.dataTables.min.js"></script>
-	<script src="theme/js/dataTables.buttons.min.js"></script>
-	<script src="theme/js/buttons.html5.min.js"></script>
-	<script src="theme/js/jszip.min.js"></script>
 	<script src="theme/js/datatables.init.js"></script>
+	
+	<!-- tagify -->
+	<script src="theme/js/tagify.js"></script>
+	
    
 	<!-- Apex Chart -->
 	<script src="theme/js/moment.js"></script>
 	<script src="theme/js/bootstrap-datetimepicker.min.js"></script>
 	
-
 	<!-- Vectormap -->
     <script src="theme/js/custom.js"></script>
 	<script src="theme/js/deznav-init.js"></script>
 	<script src="theme/js/demo.js"></script>
     <script src="theme/js/styleSwitcher.js"></script>
-	
-	
-	
 </body>
 
-<!-- Mirrored from w3crm.dexignzone.com/xhtml/finance.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
 </html>

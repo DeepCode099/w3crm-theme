@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Mirrored from w3crm.dexignzone.com/xhtml/task.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,12 +19,13 @@
 	<title>W3CRM Customer Relationship Management</title>
 	
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
-	
+	<link rel="shortcut icon" type="image/png" href="theme/images/favicon.png">
 	<link href="theme/css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="theme/css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="theme/css/jquery.dataTables.min.css" rel="stylesheet">
 	<link href="theme/css/buttons.dataTables.min.css" rel="stylesheet">
 	<link href="theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	
 	<!-- tagify-css -->
 	<link href="theme/css/tagify.css" rel="stylesheet">
 	
@@ -33,16 +35,7 @@
 </head>
 <body>
 
-    <!--*******************
-        Preloader start
-    ********************-->
-   <div id="preloader">
-		<div class="lds-ripple">
-			<div></div>
-			<div></div>
-		</div>
-    </div>
- 
+   
         <div class="nav-header">
             <a href="index.html" class="brand-logo">
 				<svg class="logo-abbr" width="39" height="23" viewBox="0 0 39 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +98,7 @@
 									<li class="active dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -117,7 +110,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -129,7 +122,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -141,7 +134,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -154,7 +147,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -166,7 +159,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -178,7 +171,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -191,7 +184,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -203,7 +196,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -216,7 +209,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -228,7 +221,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -240,7 +233,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -252,7 +245,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -265,7 +258,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -277,7 +270,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -311,7 +304,7 @@
 							<div class="card-body msg_card_body dz-scroll" id="DZ_W_Contacts_Body3">
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Hi, how are you samim?
@@ -324,12 +317,12 @@
 										<span class="msg_time_send">8:55 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am good too, thank you for your chat template
@@ -342,12 +335,12 @@
 										<span class="msg_time_send">9:05 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am looking for your next templates
@@ -360,12 +353,12 @@
 										<span class="msg_time_send">9:10 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-										<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Bye, see you
@@ -374,7 +367,7 @@
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Hi, how are you samim?
@@ -387,12 +380,12 @@
 										<span class="msg_time_send">8:55 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am good too, thank you for your chat template
@@ -405,12 +398,12 @@
 										<span class="msg_time_send">9:05 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am looking for your next templates
@@ -423,12 +416,12 @@
 										<span class="msg_time_send">9:10 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-										<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Bye, see you
@@ -576,7 +569,7 @@
 		<!--**********************************
             Header start
         ***********************************-->
-		       <%@include file="views/header.jsp" %>
+	       <%@include file="header.jsp" %>
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -584,7 +577,7 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
-              <%@include file="views/side_navigation.jsp" %>
+               <%@include file="left_side_navigation.jsp" %>
 		
         <!--**********************************
             Sidebar end
@@ -597,7 +590,7 @@
             <!-- row -->	
 			<div class="page-titles">
 				<ol class="breadcrumb">
-					<li><h5 class="bc-title">Manage Client</h5></li>
+					<li><h5 class="bc-title">Task</h5></li>
 					<li class="breadcrumb-item"><a href="javascript:void(0)">
 						<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M2.125 6.375L8.5 1.41667L14.875 6.375V14.1667C14.875 14.5424 14.7257 14.9027 14.4601 15.1684C14.1944 15.4341 13.8341 15.5833 13.4583 15.5833H3.54167C3.16594 15.5833 2.80561 15.4341 2.53993 15.1684C2.27426 14.9027 2.125 14.5424 2.125 14.1667V6.375Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
@@ -605,335 +598,610 @@
 						</svg>
 						Home </a>
 					</li>
-					<li class="breadcrumb-item active"><a href="javascript:void(0)">Manage Client</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0)">Task</a></li>
 				</ol>
 				<a class="text-primary fs-13" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">+ Add Task</a>
 			</div>
 			<div class="container-fluid">
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<h5 class="mb-0">Tasks Summary</h5>
+					<div class="d-flex align-items-center">
+						<div class="icon-box  icon-box-sm task-tab me-2">
+							<a href="tasks_summary.jsp">
+								<svg width="20" height="20" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.50032 3H2.66699V8.83333H8.50032V3Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.6668 3H11.8335V8.83333H17.6668V3Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.6668 12.1667H11.8335V18H17.6668V12.1667Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M8.50032 12.1667H2.66699V18H8.50032V12.1667Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</a>
+						</div>
+						<a href="javascript:void(0)" class="btn btn-primary btn-sm ms-2">+ Add Task</a>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="card">
-							<div class="card-body p-0">
-								<div class="table-responsive active-projects manage-client">
-								<div class="tbl-caption">
-									<h4 class="heading mb-0">Manage Client</h4>
+							<div class="card-body">
+								<div class="row task">
+									<div class="col-xl-2 col-sm-4 col-6">
+										<div class="task-summary">
+											<div class="d-flex align-items-baseline">
+												<h2 class="text-primary count">8</h2> 
+												<span>Not Started</span>
+											</div>
+											<p>Tasks assigne</p>
+										</div>
+									</div>
+									<div class="col-xl-2 col-sm-4 col-6">
+										<div class="task-summary">
+											<div class="d-flex align-items-baseline">
+												<h2 class="text-purple count">7</h2>
+												<span>In Progress</span>
+											</div>	
+											<p>Tasks assigne</p>
+										</div>
+									</div>
+									<div class="col-xl-2 col-sm-4 col-6">
+										<div class="task-summary">
+											<div class="d-flex align-items-baseline">
+												<h2 class="text-warning count">13</h2>
+												<span>Testing</span>
+											</div>	
+											<p>Tasks assigne</p>
+										</div>
+									</div>
+									<div class="col-xl-2 col-sm-4 col-6">
+										<div class="task-summary">
+											<div class="d-flex align-items-baseline">
+												<h2 class="text-danger count">11</h2>
+												<span>Awaiting</span>
+											</div>	
+											<p>Tasks assigne</p>
+										</div>
+									</div>
+									<div class="col-xl-2 col-sm-4 col-6">
+										<div class="task-summary">
+											<div class="d-flex align-items-baseline">
+												<h2 class="text-success count">21</h2>
+												<span>Complete</span>
+											</div>	
+											<p>Tasks assigne</p>
+										</div>
+									</div>
+									<div class="col-xl-2 col-sm-4 col-6">
+										<div class="task-summary">
+											<div class="d-flex align-items-baseline">	
+												<h2 class="text-danger count">16</h2>
+												<span>pending</span>
+											</div>	
+											<p>Tasks assigne</p>
+										</div>
+									</div>
 								</div>
-									<table id="reports-tbl" class="table">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12">
+						<div class="card">
+							<div class="card-body p-0">
+								<div class="table-responsive active-projects task-table">
+									<div class="tbl-caption">
+										<h4 class="heading mb-0">Task</h4>
+									</div>
+									<table id="empoloyeestbl2" class="table">
 										<thead>
 											<tr>
+												<th>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="checkAll" required>
+														<label class="form-check-label" for="checkAll"></label>
+													</div>
+												</th>
+												<th>#</th>
 												<th>Name</th>
-												<th>User Name</th>
-												<th>Contact</th>
-												<th>Gender</th>
-												<th>Location</th>
 												<th>Status</th>
+												<th>Start Date</th>
+												<th>End Date</th>
+												<th>Assigned To</th>
+												<th>Tags</th>
+												<th class="text-end">Priority</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox3" required>
+														<label class="form-check-label" for="customCheckBox3"></label>
+													</div>
+												</td>
+												<td><span>03</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>Ricky Antony</h6>
-															<span>Web Designer</span>	
+															<h6>Create Frontend WordPress</h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">ricky.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+													  <option value="complete">Complete</option>
+													  <option value="pending">Pending</option>
+													  <option value="testing">Testing</option>
+													  <option value="progress">In Progress</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Male</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>Uk</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-success light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="Medium">Medium</option>
+													  <option value="High">High</option>
+													  <option value="Low">Low</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox4" required>
+														<label class="form-check-label" for="customCheckBox4"></label>
+													</div>
+												</td>
+												<td><span>04</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>Ricky Antony</h6>
-															<span>Web Designer</span>	
+															<h6>HTML To React Convert </h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">ricky.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+													  <option value="testing">Testing</option>
+													  <option value="complete">Complete</option>
+													  <option value="pending">Pending</option>
+													  <option value="progress">In Progress</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Female</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>Usa</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-success light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="High">High</option>
+													  <option value="Medium">Medium</option>
+													  <option value="Low">Low</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox5" required>
+														<label class="form-check-label" for="customCheckBox5"></label>
+													</div>
+												</td>
+												<td><span>05</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic3.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>John Antony</h6>
-															<span>Web Designer</span>	
+															<h6>HTML template Issue Complete</h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">john.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+													  <option value="pending">Pending</option>
+													  <option value="testing">Testing</option>
+													  <option value="complete">Complete</option>
+													  <option value="progress">In Progress</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Male</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>USA</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-danger light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="High">High</option>
+													  <option value="Medium">Medium</option>
+													  <option value="Low">Low</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox6" required>
+														<label class="form-check-label" for="customCheckBox6"></label>
+													</div>
+												</td>
+												<td><span>06</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>Ricky Antony</h6>
-															<span>Web Designer</span>	
+															<h6>Complete Admin Dashboard Project</h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">ricky.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+														<option value="progress">In Progress</option>	
+														<option value="pending">Pending</option>
+														<option value="testing">Testing</option>
+														<option value="complete">Complete</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Male</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>Uk</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-success light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="Low">Low</option>
+													  <option value="High">High</option>
+													  <option value="Medium">Medium</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox7" required>
+														<label class="form-check-label" for="customCheckBox7"></label>
+													</div>
+												</td>
+												<td><span>07</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>Ricky Antony</h6>
-															<span>Web Designer</span>	
+															<h6>Create Frontend WordPress</h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">ricky.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+													  <option value="complete">Complete</option>
+													  <option value="pending">Pending</option>
+													  <option value="testing">Testing</option>
+													  <option value="progress">In Progress</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Female</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>Usa</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-success light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="Medium">Medium</option>
+													  <option value="High">High</option>
+													  <option value="Low">Low</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox8" required>
+														<label class="form-check-label" for="customCheckBox8"></label>
+													</div>
+												</td>
+												<td><span>08</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>John Antony</h6>
-															<span>Web Designer</span>	
+															<h6>HTML To React Convert </h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">john.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+													  <option value="testing">Testing</option>
+													  <option value="complete">Complete</option>
+													  <option value="pending">Pending</option>
+													  <option value="progress">In Progress</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Male</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>USA</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-danger light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="High">High</option>
+													  <option value="Medium">Medium</option>
+													  <option value="Low">Low</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox9" required>
+														<label class="form-check-label" for="customCheckBox9"></label>
+													</div>
+												</td>
+												<td><span>09</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>Ricky Antony</h6>
-															<span>Web Designer</span>	
+															<h6>HTML template Issue Complete</h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">ricky.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+													  <option value="pending">Pending</option>
+													  <option value="testing">Testing</option>
+													  <option value="complete">Complete</option>
+													  <option value="progress">In Progress</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Male</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>Uk</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-success light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="High">High</option>
+													  <option value="Medium">Medium</option>
+													  <option value="Low">Low</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox10" required>
+														<label class="form-check-label" for="customCheckBox10"></label>
+													</div>
+												</td>
+												<td><span>10</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>Ricky Antony</h6>
-															<span>Web Designer</span>	
+															<h6>Complete Admin Dashboard Project</h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">ricky.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+														<option value="progress">In Progress</option>	
+														<option value="pending">Pending</option>
+														<option value="testing">Testing</option>
+														<option value="complete">Complete</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Female</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>Usa</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-success light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="Low">Low</option>
+													  <option value="High">High</option>
+													  <option value="Medium">Medium</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox11" required>
+														<label class="form-check-label" for="customCheckBox11"></label>
+													</div>
+												</td>
+												<td><span>11</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic3.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>John Antony</h6>
-															<span>Web Designer</span>	
+															<h6>Create Frontend WordPress</h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">john.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+													  <option value="complete">Complete</option>
+													  <option value="pending">Pending</option>
+													  <option value="testing">Testing</option>
+													  <option value="progress">In Progress</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Male</span>
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+													</div>
 												</td>	
 												<td>
-													<span>USA</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-danger light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="Medium">Medium</option>
+													  <option value="High">High</option>
+													  <option value="Low">Low</option>
+													</select>
 												</td>
 											</tr>
 											<tr>
 												<td>
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="customCheckBox12" required>
+														<label class="form-check-label" for="customCheckBox12"></label>
+													</div>
+												</td>
+												<td><span>12</span></td>
+												<td>
 													<div class="products">
-														<img src="images/contacts/pic2.jpg" class="avatar avatar-md" alt="">
 														<div>
-															<h6>Ricky Antony</h6>
-															<span>Web Designer</span>	
+															<h6>HTML To React Convert </h6>
+															<span>INV-100023456</span>
 														</div>	
 													</div>
 												</td>
-												<td><span class="text-primary">ricky.antony</span></td>
 												<td>
-													<span>+91 123 456 7890</span>
+													<select class="default-select status-select">
+													  <option value="testing">Testing</option>
+													  <option value="complete">Complete</option>
+													  <option value="pending">Pending</option>
+													  <option value="progress">In Progress</option>
+													</select>
+												</td>
+												<td><span>06 Feb 2023</span></td>
+												<td>
+													<span>19 Feb 2023</span>
 												</td>
 												<td>
-													<span>Male</span>
-												</td>	
-												<td>
-													<span>Uk</span>
-												</td>
-												<td>
-													<span class="badge badge-success light border-0">Active</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="products">
-														<img src="images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
-														<div>
-															<h6>Ricky Antony</h6>
-															<span>Web Designer</span>	
-														</div>	
+													<div class="avatar-list avatar-list-stacked">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
 													</div>
-												</td>
-												<td><span class="text-primary">ricky.antony</span></td>
-												<td>
-													<span>+91 123 456 7890</span>
-												</td>
-												<td>
-													<span>Female</span>
 												</td>	
 												<td>
-													<span>Usa</span>
+													<span class="badge badge-primary light border-0 me-1">Issue</span>
+													<span class="badge badge-primary light border-0 ms-1">HTML</span>
 												</td>
-												<td>
-													<span class="badge badge-success light border-0">Active</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<div class="products">
-														<img src="images/contacts/pic1.jpg" class="avatar avatar-md" alt="">
-														<div>
-															<h6>John Antony</h6>
-															<span>Web Designer</span>	
-														</div>	
-													</div>
-												</td>
-												<td><span class="text-primary">john.antony</span></td>
-												<td>
-													<span>+91 123 456 7890</span>
-												</td>
-												<td>
-													<span>Male</span>
-												</td>	
-												<td>
-													<span>USA</span>
-												</td>
-												<td>
-													<span class="badge badge-danger light border-0">Active</span>
+												<td class="text-end">
+													<select class="default-select status-select">
+													  <option value="High">High</option>
+													  <option value="Medium">Medium</option>
+													  <option value="Low">Low</option>
+													</select>
 												</td>
 											</tr>
 										</tbody>
-										
 									</table>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			
 			</div>
         </div>
 		
         <!--**********************************
             Content body end
         ***********************************-->
-		<!-- Scrollable modal -->
-			<div class="offcanvas offcanvas-end customeoff" tabindex="-1" id="offcanvasExample1">
+		
+		
+		<div class="offcanvas offcanvas-end customeoff" tabindex="-1" id="offcanvasExample1">
 		  <div class="offcanvas-header">
 		  <h5 class="modal-title" id="#gridSystemModal1">Add New Task</h5>
 			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -1048,6 +1316,53 @@
 		  </div>
 		</div>	
 		
+		<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-center">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h1 class="modal-title fs-5" id="exampleModalLabel1">Invite Employee</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+					<div class="row">
+						<div class="col-xl-12">
+							<input type="email" class="form-control" placeholder="hello@gmail.com">
+							<label class="form-label mt-3">Employment date<span class="text-danger">*</span></label>
+							<input class="form-control" type="date">
+							<div class="row">
+								<div class="col-xl-6">
+									<label class="form-label mt-3">First Name<span class="text-danger">*</span></label>
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Name">
+									</div>
+								</div>
+								<div class="col-xl-6">
+									<label class="form-label mt-3">Last Name<span class="text-danger">*</span></label>
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Surname">
+									</div>
+								</div>
+							</div>
+							<div class="mt-3 invite">
+								<label class="form-label">Send invitation email<span class="text-danger">*</span></label>
+								<input type ="email" class="form-control " placeholder="+ invite">
+							</div>
+							
+					
+						</div>
+					</div>
+					
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		
+		
         <!--**********************************
             Footer start
         ***********************************-->
@@ -1079,11 +1394,10 @@
     ***********************************-->
     <!-- Required vendors -->
     <script src="theme/js/global.min.js"></script>
-	<script src="theme/js/Chart.bundle.min.js"></script>
-	<script src="theme/js/bootstrap-select.min.js"></script>
-	<script src="theme/js/jquery.nice-select.min.js"></script>
+	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 	
 	<!-- Dashboard 1 -->
+	 
 	<script src="theme/js/jquery.dataTables.min.js"></script>
 	<script src="theme/js/dataTables.buttons.min.js"></script>
 	<script src="theme/js/buttons.html5.min.js"></script>
@@ -1092,18 +1406,41 @@
 	
 	<!-- tagify -->
 	<script src="theme/js/tagify.js"></script>
-	
+   
 	<!-- Apex Chart -->
-	<script src="theme/js/moment.js"></script>
-	<script src="theme/js/bootstrap-datetimepicker.min.js"></script>
-	
-	<!-- Vectormap -->
     <script src="theme/js/custom.js"></script>
 	<script src="theme/js/deznav-init.js"></script>
 	<script src="theme/js/demo.js"></script>
     <script src="theme/js/styleSwitcher.js"></script>
+	<script>
+		$(document).ready(function() {
+
+		  var counters = $(".count");
+		  var countersQuantity = counters.length;
+		  var counter = [];
+
+		  for (i = 0; i < countersQuantity; i++) {
+			counter[i] = parseInt(counters[i].innerHTML);
+		  }
+
+		  var count = function(start, value, id) {
+			var localStart = start;
+			setInterval(function() {
+			  if (localStart < value) {
+				localStart++;
+				counters[id].innerHTML = localStart;
+			  }
+			}, 500);
+		  }
+
+		  for (j = 0; j < countersQuantity; j++) {
+			count(0, counter[j], j);
+		  }
+		});	
+	</script>
+
 	
 </body>
 
-
+<!-- Mirrored from w3crm.dexignzone.com/xhtml/task.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
 </html>

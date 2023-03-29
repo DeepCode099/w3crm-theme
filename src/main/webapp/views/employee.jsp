@@ -18,17 +18,7 @@
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
-	<link href="theme/css/bootstrap-select.min.css" rel="stylesheet">
-	<link href="theme/css/swiper-bundle.min.css" rel="stylesheet">
-	<link href="theme/css/jquery.dataTables.min.css" rel="stylesheet">
-	<link href="theme/css/buttons.dataTables.min.css" rel="stylesheet">
-	<link href="theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-	
-	<!-- tagify-css -->
-	<link href="theme/css/tagify.css" rel="stylesheet">
-	
-	<!-- Style css -->
-    <link href="theme/css/style.css" rel="stylesheet">
+	<%@ include file="ccs_links.jsp" %>
 	
 <style type="text/css">.apexcharts-canvas {
   position: relative;
@@ -1247,7 +1237,7 @@
 		<!--**********************************
             Header start
         ***********************************-->
-		<%@include file="views/header.jsp" %>
+		<%@include file="header.jsp"%>
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -1255,7 +1245,7 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
-       <%@include file="views/side_navigation.jsp" %>
+       <%@include file="left_side_navigation.jsp" %>
         <!--**********************************
             Sidebar end
         ***********************************-->
@@ -1298,20 +1288,7 @@
 										<thead>
 											<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="empoloyees-tblwrapper" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Employee ID: activate to sort column descending" style="width: 141.102px;">Employee ID</th><th class="sorting" tabindex="0" aria-controls="empoloyees-tblwrapper" rowspan="1" colspan="1" aria-label="Employee Name: activate to sort column ascending" style="width: 225.508px;">Employee Name</th><th class="sorting" tabindex="0" aria-controls="empoloyees-tblwrapper" rowspan="1" colspan="1" aria-label="Department: activate to sort column ascending" style="width: 174.539px;">Department</th><th class="sorting" tabindex="0" aria-controls="empoloyees-tblwrapper" rowspan="1" colspan="1" aria-label="Email Address: activate to sort column ascending" style="width: 157.852px;">Email Address</th><th class="sorting" tabindex="0" aria-controls="empoloyees-tblwrapper" rowspan="1" colspan="1" aria-label="Contact Number: activate to sort column ascending" style="width: 180.18px;">Contact Number</th><th class="sorting" tabindex="0" aria-controls="empoloyees-tblwrapper" rowspan="1" colspan="1" aria-label="Gender: activate to sort column ascending" style="width: 97.9062px;">Gender</th><th class="sorting" tabindex="0" aria-controls="empoloyees-tblwrapper" rowspan="1" colspan="1" aria-label="Location: activate to sort column ascending" style="width: 107.766px;">Location</th><th class="sorting" tabindex="0" aria-controls="empoloyees-tblwrapper" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 94.6484px;">Status</th></tr>
 										</thead>
-										<tbody>
-											
-											
-											
-											
-											
-											
-											
-											
-											
-											
-											
-											
-											
+										<tbody>							
 										<tr role="row" class="odd">
 												<td class="sorting_1"><span>1001</span></td>
 												<td>
@@ -1873,11 +1850,8 @@
 								<label class="form-label">Send invitation email<span class="text-danger">*</span></label>
 								<input type="email" class="form-control " placeholder="+ invite">
 							</div>
-							
-					
 						</div>
 					</div>
-					
 			  </div>
 			  <div class="modal-footer">
 				<button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
@@ -1886,7 +1860,6 @@
 			</div>
 		  </div>
 		</div>
-
 		<!--**********************************
            Support ticket button start
         ***********************************-->

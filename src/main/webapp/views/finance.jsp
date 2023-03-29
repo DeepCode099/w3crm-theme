@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from w3crm.dexignzone.com/xhtml/task.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
+<!-- Mirrored from w3crm.dexignzone.com/xhtml/finance.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,23 +19,17 @@
 	<title>W3CRM Customer Relationship Management</title>
 	
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="theme/images/favicon.png">
-	<link href="theme/css/bootstrap-select.min.css" rel="stylesheet">
-	<link href="theme/css/swiper-bundle.min.css" rel="stylesheet">
-	<link href="theme/css/jquery.dataTables.min.css" rel="stylesheet">
-	<link href="theme/css/buttons.dataTables.min.css" rel="stylesheet">
-	<link href="theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<%@ include file="ccs_links.jsp" %>
 	
-	<!-- tagify-css -->
-	<link href="theme/css/tagify.css" rel="stylesheet">
-	
-	<!-- Style css -->
-    <link href="theme/css/style.css" rel="stylesheet">
 	
 </head>
 <body>
 
-   
+  
+        <!--**********************************
+            Nav header start
+        ***********************************-->
         <div class="nav-header">
             <a href="index.html" class="brand-logo">
 				<svg class="logo-abbr" width="39" height="23" viewBox="0 0 39 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -98,7 +92,7 @@
 									<li class="active dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -110,7 +104,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -122,7 +116,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -134,7 +128,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -147,7 +141,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -159,7 +153,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -171,7 +165,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -184,7 +178,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -196,7 +190,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -209,7 +203,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -221,7 +215,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -233,7 +227,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -245,7 +239,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -258,7 +252,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -270,7 +264,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -304,7 +298,7 @@
 							<div class="card-body msg_card_body dz-scroll" id="DZ_W_Contacts_Body3">
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Hi, how are you samim?
@@ -317,12 +311,12 @@
 										<span class="msg_time_send">8:55 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am good too, thank you for your chat template
@@ -335,12 +329,12 @@
 										<span class="msg_time_send">9:05 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am looking for your next templates
@@ -353,12 +347,12 @@
 										<span class="msg_time_send">9:10 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Bye, see you
@@ -367,7 +361,7 @@
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Hi, how are you samim?
@@ -380,12 +374,12 @@
 										<span class="msg_time_send">8:55 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am good too, thank you for your chat template
@@ -398,12 +392,12 @@
 										<span class="msg_time_send">9:05 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am looking for your next templates
@@ -416,12 +410,12 @@
 										<span class="msg_time_send">9:10 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Bye, see you
@@ -569,7 +563,7 @@
 		<!--**********************************
             Header start
         ***********************************-->
-	       <%@include file="views/header.jsp" %>
+				<%@include file="header.jsp" %>
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -577,8 +571,7 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
-               <%@include file="views/side_navigation.jsp" %>
-		
+              <%@include file="left_side_navigation.jsp" %>
         <!--**********************************
             Sidebar end
         ***********************************-->
@@ -590,7 +583,7 @@
             <!-- row -->	
 			<div class="page-titles">
 				<ol class="breadcrumb">
-					<li><h5 class="bc-title">Task</h5></li>
+					<li><h5 class="bc-title">Finance</h5></li>
 					<li class="breadcrumb-item"><a href="javascript:void(0)">
 						<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M2.125 6.375L8.5 1.41667L14.875 6.375V14.1667C14.875 14.5424 14.7257 14.9027 14.4601 15.1684C14.1944 15.4341 13.8341 15.5833 13.4583 15.5833H3.54167C3.16594 15.5833 2.80561 15.4341 2.53993 15.1684C2.27426 14.9027 2.125 14.5424 2.125 14.1667V6.375Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
@@ -598,608 +591,391 @@
 						</svg>
 						Home </a>
 					</li>
-					<li class="breadcrumb-item active"><a href="javascript:void(0)">Task</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0)">Finance</a></li>
 				</ol>
 				<a class="text-primary fs-13" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">+ Add Task</a>
 			</div>
 			<div class="container-fluid">
-				<div class="d-flex justify-content-between align-items-center mb-3">
-					<h5 class="mb-0">Tasks Summary</h5>
-					<div class="d-flex align-items-center">
-						<div class="icon-box  icon-box-sm task-tab me-2">
-							<a href="tasks_summary.jsp">
-								<svg width="20" height="20" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M8.50032 3H2.66699V8.83333H8.50032V3Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-									<path d="M17.6668 3H11.8335V8.83333H17.6668V3Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-									<path d="M17.6668 12.1667H11.8335V18H17.6668V12.1667Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-									<path d="M8.50032 12.1667H2.66699V18H8.50032V12.1667Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-								</svg>
-							</a>
-						</div>
-						<a href="javascript:void(0)" class="btn btn-primary btn-sm ms-2">+ Add Task</a>
-					</div>
-				</div>
 				<div class="row">
-					<div class="col-xl-12">
-						<div class="card">
+					<div class="col-xl-3 col-xxl-4">
+						<div class="card h-auto">
+							<div class="card-header">
+								<h4 class="heading mb-0">Add New Account </h4>
+							</div>
 							<div class="card-body">
-								<div class="row task">
-									<div class="col-xl-2 col-sm-4 col-6">
-										<div class="task-summary">
-											<div class="d-flex align-items-baseline">
-												<h2 class="text-primary count">8</h2> 
-												<span>Not Started</span>
-											</div>
-											<p>Tasks assigne</p>
-										</div>
+								<form class="finance-hr">
+									<div class="form-group mb-3">
+										<label class="text-secondary font-w500"> Account Title<span class="text-danger">*</span>
+									  </label>
+									  <input type="text" class="form-control"  placeholder="Account Title">
 									</div>
-									<div class="col-xl-2 col-sm-4 col-6">
-										<div class="task-summary">
-											<div class="d-flex align-items-baseline">
-												<h2 class="text-purple count">7</h2>
-												<span>In Progress</span>
-											</div>	
-											<p>Tasks assigne</p>
-										</div>
+									<div class="form-group mb-3">
+									  <label> Amount<span class="text-danger">*</span>
+									  </label>
+									  <div class="input-group">
+										<div class="input-group-text">$</div>
+										<input type="text" class="form-control" placeholder="Initial Balance">
+									  </div>
 									</div>
-									<div class="col-xl-2 col-sm-4 col-6">
-										<div class="task-summary">
-											<div class="d-flex align-items-baseline">
-												<h2 class="text-warning count">13</h2>
-												<span>Testing</span>
-											</div>	
-											<p>Tasks assigne</p>
-										</div>
+									<div class="form-group mb-3">
+										<label class="text-secondary"> Account No<span class="text-danger">*</span>
+									  </label>
+									  <input type="text" class="form-control"  placeholder="Account Title">
 									</div>
-									<div class="col-xl-2 col-sm-4 col-6">
-										<div class="task-summary">
-											<div class="d-flex align-items-baseline">
-												<h2 class="text-danger count">11</h2>
-												<span>Awaiting</span>
-											</div>	
-											<p>Tasks assigne</p>
-										</div>
+									<div class="form-group mb-3">
+										<label class="text-secondary">Branch Code<span class="text-danger">*</span>
+									  </label>
+									  <input type="text" class="form-control"  placeholder="Branch Code">
 									</div>
-									<div class="col-xl-2 col-sm-4 col-6">
-										<div class="task-summary">
-											<div class="d-flex align-items-baseline">
-												<h2 class="text-success count">21</h2>
-												<span>Complete</span>
-											</div>	
-											<p>Tasks assigne</p>
-										</div>
+									<div class="form-group mb-3">
+										<label class="text-secondary">Branch Name<span class="text-danger">*</span>
+									  </label>
+									  <input type="text" class="form-control"  placeholder="Branch Name">
 									</div>
-									<div class="col-xl-2 col-sm-4 col-6">
-										<div class="task-summary">
-											<div class="d-flex align-items-baseline">	
-												<h2 class="text-danger count">16</h2>
-												<span>pending</span>
-											</div>	
-											<p>Tasks assigne</p>
-										</div>
-									</div>
-								</div>
+									<button type="submit" class="btn btn-primary mb-3">Confirm</button>
+								</form>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-12">
+					<div class="col-xl-9 col-xxl-8">
 						<div class="card">
 							<div class="card-body p-0">
-								<div class="table-responsive active-projects task-table">
-									<div class="tbl-caption">
-										<h4 class="heading mb-0">Task</h4>
-									</div>
-									<table id="empoloyeestbl2" class="table">
+								<div class="table-responsive active-projects manage-client">
+								<div class="tbl-caption">
+									<h4 class="heading mb-0">Finance</h4>
+								</div>
+									<table id="empoloyees-tbl1" class="table">
 										<thead>
 											<tr>
-												<th>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="checkAll" required>
-														<label class="form-check-label" for="checkAll"></label>
-													</div>
-												</th>
-												<th>#</th>
-												<th>Name</th>
-												<th>Status</th>
-												<th>Start Date</th>
-												<th>End Date</th>
-												<th>Assigned To</th>
-												<th>Tags</th>
-												<th class="text-end">Priority</th>
+												<th>Account Title</th>
+												<th>Amount</th>
+												<th>Account No</th>
+												<th>Branch Code</th>
+												<th>Branch Name</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox3" required>
-														<label class="form-check-label" for="customCheckBox3"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Saving</a>
 												</td>
-												<td><span>03</span></td>
+												<td><span>500 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>Create Frontend WordPress</h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>1234500000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-													  <option value="complete">Complete</option>
-													  <option value="pending">Pending</option>
-													  <option value="testing">Testing</option>
-													  <option value="progress">In Progress</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>1234</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="Medium">Medium</option>
-													  <option value="High">High</option>
-													  <option value="Low">Low</option>
-													</select>
+													<span>Bank Of Uk</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox4" required>
-														<label class="form-check-label" for="customCheckBox4"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Salary </a>
 												</td>
-												<td><span>04</span></td>
+												<td><span>700 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>HTML To React Convert </h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>678900000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-													  <option value="testing">Testing</option>
-													  <option value="complete">Complete</option>
-													  <option value="pending">Pending</option>
-													  <option value="progress">In Progress</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>5678</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="High">High</option>
-													  <option value="Medium">Medium</option>
-													  <option value="Low">Low</option>
-													</select>
+													<span>Bank Of Lundon</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox5" required>
-														<label class="form-check-label" for="customCheckBox5"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
 												</td>
-												<td><span>05</span></td>
+												<td><span>700 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>HTML template Issue Complete</h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>678900000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-													  <option value="pending">Pending</option>
-													  <option value="testing">Testing</option>
-													  <option value="complete">Complete</option>
-													  <option value="progress">In Progress</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>5678</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="High">High</option>
-													  <option value="Medium">Medium</option>
-													  <option value="Low">Low</option>
-													</select>
+													<span>Bank Of Lundon</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox6" required>
-														<label class="form-check-label" for="customCheckBox6"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Recurring deposit</a>
 												</td>
-												<td><span>06</span></td>
+												<td><span>6000 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>Complete Admin Dashboard Project</h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>678900000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-														<option value="progress">In Progress</option>	
-														<option value="pending">Pending</option>
-														<option value="testing">Testing</option>
-														<option value="complete">Complete</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>5678</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="Low">Low</option>
-													  <option value="High">High</option>
-													  <option value="Medium">Medium</option>
-													</select>
+													<span>Bank Of India</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox7" required>
-														<label class="form-check-label" for="customCheckBox7"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Saving</a>
 												</td>
-												<td><span>07</span></td>
+												<td><span>500 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>Create Frontend WordPress</h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>1234500000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-													  <option value="complete">Complete</option>
-													  <option value="pending">Pending</option>
-													  <option value="testing">Testing</option>
-													  <option value="progress">In Progress</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>1234</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="Medium">Medium</option>
-													  <option value="High">High</option>
-													  <option value="Low">Low</option>
-													</select>
+													<span>Bank Of Uk</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox8" required>
-														<label class="form-check-label" for="customCheckBox8"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Salary </a>
 												</td>
-												<td><span>08</span></td>
+												<td><span>700 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>HTML To React Convert </h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>678900000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-													  <option value="testing">Testing</option>
-													  <option value="complete">Complete</option>
-													  <option value="pending">Pending</option>
-													  <option value="progress">In Progress</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>5678</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="High">High</option>
-													  <option value="Medium">Medium</option>
-													  <option value="Low">Low</option>
-													</select>
+													<span>Bank Of Lundon</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox9" required>
-														<label class="form-check-label" for="customCheckBox9"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
 												</td>
-												<td><span>09</span></td>
+												<td><span>700 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>HTML template Issue Complete</h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>678900000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-													  <option value="pending">Pending</option>
-													  <option value="testing">Testing</option>
-													  <option value="complete">Complete</option>
-													  <option value="progress">In Progress</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>5678</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="High">High</option>
-													  <option value="Medium">Medium</option>
-													  <option value="Low">Low</option>
-													</select>
+													<span>Bank Of Lundon</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox10" required>
-														<label class="form-check-label" for="customCheckBox10"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
 												</td>
-												<td><span>10</span></td>
+												<td><span>700 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>Complete Admin Dashboard Project</h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>678900000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-														<option value="progress">In Progress</option>	
-														<option value="pending">Pending</option>
-														<option value="testing">Testing</option>
-														<option value="complete">Complete</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>5678</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="Low">Low</option>
-													  <option value="High">High</option>
-													  <option value="Medium">Medium</option>
-													</select>
+													<span>Bank Of Lundon</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox11" required>
-														<label class="form-check-label" for="customCheckBox11"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Salary </a>
 												</td>
-												<td><span>11</span></td>
+												<td><span>700 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>Create Frontend WordPress</h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>678900000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-													  <option value="complete">Complete</option>
-													  <option value="pending">Pending</option>
-													  <option value="testing">Testing</option>
-													  <option value="progress">In Progress</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>5678</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
-												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="Medium">Medium</option>
-													  <option value="High">High</option>
-													  <option value="Low">Low</option>
-													</select>
+													<span>Bank Of Lundon</span>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<div class="form-check custom-checkbox">
-														<input type="checkbox" class="form-check-input" id="customCheckBox12" required>
-														<label class="form-check-label" for="customCheckBox12"></label>
-													</div>
+													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
 												</td>
-												<td><span>12</span></td>
+												<td><span>700 $</span></td>
 												<td>
-													<div class="products">
-														<div>
-															<h6>HTML To React Convert </h6>
-															<span>INV-100023456</span>
-														</div>	
-													</div>
+													<span>678900000000</span>
 												</td>
 												<td>
-													<select class="default-select status-select">
-													  <option value="testing">Testing</option>
-													  <option value="complete">Complete</option>
-													  <option value="pending">Pending</option>
-													  <option value="progress">In Progress</option>
-													</select>
-												</td>
-												<td><span>06 Feb 2023</span></td>
-												<td>
-													<span>19 Feb 2023</span>
+													<span>5678</span>
 												</td>
 												<td>
-													<div class="avatar-list avatar-list-stacked">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-														<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													</div>
-												</td>	
-												<td>
-													<span class="badge badge-primary light border-0 me-1">Issue</span>
-													<span class="badge badge-primary light border-0 ms-1">HTML</span>
+													<span>Bank Of Lundon</span>
 												</td>
-												<td class="text-end">
-													<select class="default-select status-select">
-													  <option value="High">High</option>
-													  <option value="Medium">Medium</option>
-													  <option value="Low">Low</option>
-													</select>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
+												</td>
+												<td><span>700 $</span></td>
+												<td>
+													<span>678900000000</span>
+												</td>
+												<td>
+													<span>5678</span>
+												</td>
+												<td>
+													<span>Bank Of Lundon</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)" class="text-primary">Recurring deposit</a>
+												</td>
+												<td><span>6000 $</span></td>
+												<td>
+													<span>678900000000</span>
+												</td>
+												<td>
+													<span>5678</span>
+												</td>
+												<td>
+													<span>Bank Of India</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)" class="text-primary">Recurring deposit</a>
+												</td>
+												<td><span>6000 $</span></td>
+												<td>
+													<span>678900000000</span>
+												</td>
+												<td>
+													<span>5678</span>
+												</td>
+												<td>
+													<span>Bank Of India</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
+												</td>
+												<td><span>700 $</span></td>
+												<td>
+													<span>678900000000</span>
+												</td>
+												<td>
+													<span>5678</span>
+												</td>
+												<td>
+													<span>Bank Of Lundon</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)" class="text-primary">Salary </a>
+												</td>
+												<td><span>700 $</span></td>
+												<td>
+													<span>678900000000</span>
+												</td>
+												<td>
+													<span>5678</span>
+												</td>
+												<td>
+													<span>Bank Of Lundon</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<a href="javascript:void(0)" class="text-primary">Fixed deposit</a>
+												</td>
+												<td><span>700 $</span></td>
+												<td>
+													<span>678900000000</span>
+												</td>
+												<td>
+													<span>5678</span>
+												</td>
+												<td>
+													<span>Bank Of Lundon</span>
 												</td>
 											</tr>
 										</tbody>
+										
 									</table>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			
 			</div>
         </div>
 		
         <!--**********************************
             Content body end
         ***********************************-->
+		<!-- Scrollable modal -->
+		<div class="modal fade" id="modalGrid">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="#gridSystemModal">Add Employee</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>	
+					<div class="modal-body">
+					  <div class="container-fluid">
+						<div>
+							<label>Profile Picture</label>
+							<div class= "setting-img d-flex align-items-center mb-4">
+								 <div class="avatar-upload d-flex align-items-center">
+									<div class=" change position-relative d-flex">
+										<div class="avatar-preview">
+											<div id="imagePreview" style="background-image: url(page-error-404.html);"> 			
+											</div>
+										</div>
+										<div class="change-btn d-flex align-items-center flex-wrap">
+											<input type='file' class="form-control"  id="imageUpload" accept=".png, .jpg, .jpeg" >
+											<label for="imageUpload" class="dlab-upload">Choose File</label>
+											<a href="javascript:void" class="btn remove-img ms-2">Remove</a>
+										</div>
+									</div>
+										
+								</div>
+									
+							</div>
+						</div>
+						<form>
+							<div class="row">
+								<div class="col-xl-6 mb-3">
+									<label for="exampleFormControlInput1" class="form-label">Employee ID <span class="text-danger">*</span></label>
+									<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+								</div>	
+								<div class="col-xl-6 mb-3">
+									<label for="exampleFormControlInput2" class="form-label">Employee Name<span class="text-danger">*</span></label>
+									<input type="text" class="form-control" id="exampleFormControlInput2" placeholder="">
+								</div>	
+								<div class="col-xl-6 mb-3">
+									<label for="exampleFormControlInput3" class="form-label">Employee Email<span class="text-danger">*</span></label>
+									<input type="email" class="form-control" id="exampleFormControlInput3" placeholder="">
+								</div>
+								<div class="col-xl-6 mb-3">
+									<label for="exampleFormControlInput4" class="form-label">Password<span class="text-danger"></span></label>
+									<input type="password" class="form-control" id="exampleFormControlInput4" placeholder="">
+								</div>								
+							</div>
+						</form>
+					  </div>
+					</div>		
+				</div>		
+			</div>		
+		</div>		
 		
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+               <p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
 		
 		<div class="offcanvas offcanvas-end customeoff" tabindex="-1" id="offcanvasExample1">
 		  <div class="offcanvas-header">
@@ -1315,7 +1091,6 @@
 			  </div>
 		  </div>
 		</div>	
-		
 		<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
 		  <div class="modal-dialog modal-dialog-center">
 			<div class="modal-content">
@@ -1360,20 +1135,6 @@
 			</div>
 		  </div>
 		</div>
-		
-		
-		
-        <!--**********************************
-            Footer start
-        ***********************************-->
-        <div class="footer">
-            <div class="copyright">
-               <p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
-            </div>
-        </div>
-        <!--**********************************
-            Footer end
-        ***********************************-->
 
 		<!--**********************************
            Support ticket button start
@@ -1394,53 +1155,31 @@
     ***********************************-->
     <!-- Required vendors -->
     <script src="theme/js/global.min.js"></script>
-	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="theme/js/bootstrap-select.min.js"></script>
 	
-	<!-- Dashboard 1 -->
-	 
+	<!-- tagify -->
+	<script src="theme/jsp/tagify.js"></script>
+	
 	<script src="theme/js/jquery.dataTables.min.js"></script>
 	<script src="theme/js/dataTables.buttons.min.js"></script>
 	<script src="theme/js/buttons.html5.min.js"></script>
 	<script src="theme/js/jszip.min.js"></script>
 	<script src="theme/js/datatables.init.js"></script>
-	
-	<!-- tagify -->
-	<script src="theme/js/tagify.js"></script>
    
 	<!-- Apex Chart -->
+	<script src="theme/js/moment.js"></script>
+	<script src="theme/js/bootstrap-datetimepicker.min.js"></script>
+	
+
+	<!-- Vectormap -->
     <script src="theme/js/custom.js"></script>
 	<script src="theme/js/deznav-init.js"></script>
 	<script src="theme/js/demo.js"></script>
     <script src="theme/js/styleSwitcher.js"></script>
-	<script>
-		$(document).ready(function() {
-
-		  var counters = $(".count");
-		  var countersQuantity = counters.length;
-		  var counter = [];
-
-		  for (i = 0; i < countersQuantity; i++) {
-			counter[i] = parseInt(counters[i].innerHTML);
-		  }
-
-		  var count = function(start, value, id) {
-			var localStart = start;
-			setInterval(function() {
-			  if (localStart < value) {
-				localStart++;
-				counters[id].innerHTML = localStart;
-			  }
-			}, 500);
-		  }
-
-		  for (j = 0; j < countersQuantity; j++) {
-			count(0, counter[j], j);
-		  }
-		});	
-	</script>
-
+	
+	
 	
 </body>
 
-<!-- Mirrored from w3crm.dexignzone.com/xhtml/task.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
+<!-- Mirrored from w3crm.dexignzone.com/xhtml/finance.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
 </html>

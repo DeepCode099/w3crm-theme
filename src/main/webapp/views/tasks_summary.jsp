@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
+<!-- Mirrored from w3crm.dexignzone.com/xhtml/task-summary.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,11 +20,12 @@
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="theme/images/favicon.png">
-	
 	<link href="theme/css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="theme/css/swiper-bundle.min.css" rel="stylesheet">
 	<link href="theme/css/jquery.dataTables.min.css" rel="stylesheet">
 	<link href="theme/css/buttons.dataTables.min.css" rel="stylesheet">
 	<link href="theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	
 	<!-- tagify-css -->
 	<link href="theme/css/tagify.css" rel="stylesheet">
 	
@@ -34,8 +35,8 @@
 </head>
 <body>
 
-    
-        <div class="nav-header">
+   
+         <div class="nav-header">
             <a href="index.html" class="brand-logo">
 				<svg class="logo-abbr" width="39" height="23" viewBox="0 0 39 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path class="w3" d="M32.0362 22H19.0466L20.7071 18.7372C20.9559 18.2484 21.455 17.9378 22.0034 17.9305L31.1036 17.8093C33.0753 17.6497 33.6571 15.9246 33.7015 15.0821C33.7015 13.2196 32.1916 12.5765 31.4367 12.4878H23.7095L25.9744 8.49673H30.4375C31.8763 8.3903 32.236 7.03332 32.236 6.36814C32.3426 4.93133 30.9482 4.61648 30.2376 4.63865H28.6955C28.2646 4.63865 27.9788 4.19212 28.1592 3.8008L29.7047 0.44798C31.0903 0.394765 32.8577 0.780573 33.5683 0.980129C38.6309 3.42801 37.0988 7.98676 35.6999 9.96014C38.1513 11.9291 38.4976 14.3282 38.3644 15.2816C38.098 20.1774 34.0346 21.8005 32.0362 22Z" fill="var(--primary)"/>
@@ -97,7 +98,7 @@
 									<li class="active dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -109,7 +110,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -121,7 +122,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -133,7 +134,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -146,7 +147,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -158,7 +159,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -170,7 +171,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -183,7 +184,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -195,7 +196,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -208,7 +209,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -220,7 +221,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -232,7 +233,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -244,7 +245,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/3.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon"></span>
 											</div>
 											<div class="user_info">
@@ -257,7 +258,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/4.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -269,7 +270,7 @@
 									<li class="dz-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+												<img src="theme/images/avatar/5.jpg" class="rounded-circle user_img" alt="">
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">
@@ -303,7 +304,7 @@
 							<div class="card-body msg_card_body dz-scroll" id="DZ_W_Contacts_Body3">
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Hi, how are you samim?
@@ -316,12 +317,12 @@
 										<span class="msg_time_send">8:55 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am good too, thank you for your chat template
@@ -334,12 +335,12 @@
 										<span class="msg_time_send">9:05 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am looking for your next templates
@@ -352,12 +353,12 @@
 										<span class="msg_time_send">9:10 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-										<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Bye, see you
@@ -366,7 +367,7 @@
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Hi, how are you samim?
@@ -379,12 +380,12 @@
 										<span class="msg_time_send">8:55 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am good too, thank you for your chat template
@@ -397,12 +398,12 @@
 										<span class="msg_time_send">9:05 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-								<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+								<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										I am looking for your next templates
@@ -415,12 +416,12 @@
 										<span class="msg_time_send">9:10 AM, Today</span>
 									</div>
 									<div class="img_cont_msg">
-										<img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 								</div>
 								<div class="d-flex justify-content-start mb-4">
 									<div class="img_cont_msg">
-										<img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+										<img src="theme/images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
 									</div>
 									<div class="msg_cotainer">
 										Bye, see you
@@ -568,7 +569,7 @@
 		<!--**********************************
             Header start
         ***********************************-->
-		       <%@include file="views/header.jsp" %>
+		       <%@include file="header.jsp" %>
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -576,7 +577,7 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
-               <%@include file="views/side_navigation.jsp" %>
+              <%@include file="left_side_navigation.jsp" %>
         <!--**********************************
             Sidebar end
         ***********************************-->
@@ -588,7 +589,7 @@
             <!-- row -->	
 			<div class="page-titles">
 				<ol class="breadcrumb">
-					<li><h5 class="bc-title">Performance</h5></li>
+					<li><h5 class="bc-title">Task</h5></li>
 					<li class="breadcrumb-item"><a href="javascript:void(0)">
 						<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M2.125 6.375L8.5 1.41667L14.875 6.375V14.1667C14.875 14.5424 14.7257 14.9027 14.4601 15.1684C14.1944 15.4341 13.8341 15.5833 13.4583 15.5833H3.54167C3.16594 15.5833 2.80561 15.4341 2.53993 15.1684C2.27426 14.9027 2.125 14.5424 2.125 14.1667V6.375Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
@@ -596,272 +597,759 @@
 						</svg>
 						Home </a>
 					</li>
-					<li class="breadcrumb-item active"><a href="javascript:void(0)">Performance</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0)">Task</a></li>
 				</ol>
 				<a class="text-primary fs-13" data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1">+ Add Task</a>
 			</div>
 			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="card">
-							<div class="card-body p-0">
-								<div class="table-responsive active-projects manage-client">
-								<div class="tbl-caption">
-									<h4 class="heading mb-0">Performance Indicators</h4>
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<h5 class="mb-0">Tasks Summary</h5>
+					<div class="d-flex align-items-center">
+						<div class="icon-box  icon-box-sm task-tab me-2">
+							<a href="task.html">
+								<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.8335 5.5H17.6668" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M6.8335 10.5H17.6668" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M6.8335 15.5H17.6668" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M2.66699 5.5H2.67699" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M2.66699 10.5H2.67699" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M2.66699 15.5H2.67699" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</a>
+						</div>
+						<a href="javascript:void(0)" class="btn btn-primary btn-sm ms-2">+ Add Task</a>
+					</div>
+				</div>
+				<div class="row kanban-bx">
+					<div class="col">
+						<div class="card kanbanPreview-bx">
+							<div class="card-body draggable-zone dropzoneContainer">
+								<div class="sub-card border-primary">
+									<div class="sub-card-2">
+										<div>
+											<h5 class="mb-0">Not Started</h5>
+											<span>Tasks assigned to me: 18</span>
+										</div>
+										<div class="icon-box bg-primary-light rounded-circle">
+											<h5 class="text-primary totalCount">18</h5>
+										</div>
+									</div>
 								</div>
-									<table id="empoloyees-tblwrapper" class="table">
-										<thead>
-											<tr>
-												<th>Title</th>
-												<th>Designation</th>
-												<th>Rating</th>
-												<th>Added By</th>
-												<th>Created Date</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Jack</a>
-												</td>
-												<td><span>Civil Engineer</span></td>
-												<td>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>4.0</span>
-												</td>
-												<td>
-													<span>John Marry</span>
-												</td>
-												<td>
-													<span>14 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Khalid</a>
-												</td>
-												<td><span>Software Engineer</span></td>
-												<td>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>2.1</span>
-												</td>
-												<td>
-													<span>Caty Fsa</span>
-												</td>
-												<td>
-													<span>18 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Ethan</a>
-												</td>
-												<td><span>Website Engineer</span></td>
-												<td>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>3.1</span>
-												</td>
-												<td>
-													<span>John Marry</span>
-												</td>
-												<td>
-													<span>19 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Peter</a>
-												</td>
-												<td><span>Software Engineer</span></td>
-												<td>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>4.0</span>
-												</td>
-												<td>
-													<span>Geeta Marry</span>
-												</td>
-												<td>
-													<span>14 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Aaron</a>
-												</td>
-												<td><span>Civil Engineer</span></td>
-												<td>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>4.0</span>
-												</td>
-												<td>
-													<span>John Marry</span>
-												</td>
-												<td>
-													<span>14 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Scott</a>
-												</td>
-												<td><span>Software Engineer</span></td>
-												<td>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>2.1</span>
-												</td>
-												<td>
-													<span>Caty Fsa</span>
-												</td>
-												<td>
-													<span>18 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Morris</a>
-												</td>
-												<td><span>Website Engineer</span></td>
-												<td>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>3.1</span>
-												</td>
-												<td>
-													<span>John Marry</span>
-												</td>
-												<td>
-													<span>19 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Robin</a>
-												</td>
-												<td><span>Software Engineer</span></td>
-												<td>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>4.0</span>
-												</td>
-												<td>
-													<span>Geeta Marry</span>
-												</td>
-												<td>
-													<span>14 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Samuel</a>
-												</td>
-												<td><span>Civil Engineer</span></td>
-												<td>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>4.0</span>
-												</td>
-												<td>
-													<span>John Marry</span>
-												</td>
-												<td>
-													<span>14 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Cedric</a>
-												</td>
-												<td><span>Software Engineer</span></td>
-												<td>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>2.1</span>
-												</td>
-												<td>
-													<span>Caty Fsa</span>
-												</td>
-												<td>
-													<span>18 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Sandy</a>
-												</td>
-												<td><span>Website Engineer</span></td>
-												<td>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>3.1</span>
-												</td>
-												<td>
-													<span>John Marry</span>
-												</td>
-												<td>
-													<span>19 Feb 2023</span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="javascript:void(0)">Joe</a>
-												</td>
-												<td><span>Software Engineer</span></td>
-												<td>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<i class="fa-sharp fa-solid fa-star text-orange"></i>
-													<i class="fa-solid fa-star-half-stroke text-orange"></i>
-													<span>4.0</span>
-												</td>
-												<td>
-													<span>Geeta Marry</span>
-												</td>
-												<td>
-													<span>14 Feb 2023</span>
-												</td>
-											</tr>
-										</tbody>
-										
-									</table>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="testing">Testing</option>
+											  <option value="pending">Pending</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="Low">Low</option>
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											</select>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class="col">
+						<div class="card kanbanPreview-bx">
+							<div class="card-body draggable-zone dropzoneContainer">
+								<div class="sub-card border-purple">
+									<div class="sub-card-2">
+										<div>
+											<h5 class="mb-0">Not Started</h5>
+											<span>Tasks assigned to me: 18</span>
+										</div>
+										<div class="icon-box bg-purple-light rounded-circle">
+											<h5 class="text-purple totalCount">18</h5>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											  <option value="High">High</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card kanbanPreview-bx">
+							<div class="card-body draggable-zone dropzoneContainer">
+								<div class="sub-card border-warning">
+									<div class="sub-card-2">
+										<div>
+											<h5 class="mb-0">Not Started</h5>
+											<span>Tasks assigned to me: 18</span>
+										</div>
+										<div class="icon-box bg-warning-light rounded-circle">
+											<h5 class="text-warning totalCount">18</h5>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="testing">Testing</option>
+											  <option value="pending">Pending</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="complete">Complete</option>
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="progress">In Progress</option>
+											  <option value="testing">Testing</option>
+											  <option value="pending">Pending</option>
+											  <option value="complete">Complete</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="Low">Low</option>
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card kanbanPreview-bx">
+							<div class="card-body draggable-zone dropzoneContainer">
+								<div class="sub-card border-danger">
+									<div class="sub-card-2">
+										<div>
+											<h5 class="mb-0">Not Started</h5>
+											<span>Tasks assigned to me: 13</span>
+										</div>
+										<div class="icon-box bg-danger-light rounded-circle">
+											<h5 class="text-danger totalCount">13</h5>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											  <option value="High">High</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card kanbanPreview-bx">
+							<div class="card-body draggable-zone dropzoneContainer">
+								<div class="sub-card border-success">
+									<div class="sub-card-2">
+										<div>
+											<h5 class="mb-0">Complete</h5>
+											<span>Tasks assigned to me: 21</span>
+										</div>
+										<div class="icon-box bg-success-light rounded-circle">
+											<h5 class="text-success totalCount">13</h5>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											  <option value="High">High</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="sub-card draggable-handle draggable p-0">
+									<div class="task-card-data">
+										<div class="products">
+											<div>
+												<h6>HTML template Issue Complete</h6>
+												<span>INV-100023456</span>
+											</div>	
+										</div>
+										<div class="avatar-list avatar-list-stacked my-2">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic1.jpg" class="avatar rounded-circle" alt="">
+											<img src="theme/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
+										</div>
+										<div class="my-2">
+											<span class="badge badge-primary light border-0 me-1">Issue</span>
+											<span class="badge badge-primary light border-0 ms-1">HTML</span>
+										</div>
+										<div class="d-flex align-items-center">
+											<p class="mb-0 font-w500 text-secondary me-2">Status</p>
+											<select class="default-select status-select">
+											  <option value="pending">Pending</option>
+											  <option value="testing">Testing</option>
+											  <option value="complete">Complete</option>
+											  <option value="progress">In Progress</option>
+											</select>
+										</div>
+											
+									</div>	
+									<div class="card-footer d-flex align-items-center justify-content-between">
+										<div class="footer-data">
+											<span>Start Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span>End Date</span>
+											<p>06 Feb 2023</p>
+										</div>
+										<div class="footer-data">
+											<span class="d-block">Priority</span>
+											<select class="default-select status-select">
+											  <option value="High">High</option>
+											  <option value="Medium">Medium</option>
+											  <option value="Low">Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
 				</div>
+			
 			</div>
         </div>
 		
         <!--**********************************
             Content body end
         ***********************************-->
+		
 		<div class="offcanvas offcanvas-end customeoff" tabindex="-1" id="offcanvasExample1">
 		  <div class="offcanvas-header">
 		  <h5 class="modal-title" id="#gridSystemModal1">Add New Task</h5>
@@ -1010,27 +1498,22 @@
     ***********************************-->
     <!-- Required vendors -->
     <script src="theme/js/global.min.js"></script>
-	<script src="theme/js/jquery.nice-select.min.js"></script>
+	<script src="theme/js/Chart.bundle.min.js"></script>
 	<script src="theme/js/bootstrap-select.min.js"></script>
 	
-	
 	<!-- Dashboard 1 -->
-	<script src="theme/js/jquery.dataTables.min.js"></script>
-	<script src="theme/js/datatables.init.js"></script>
+	<script src="theme/js/draggable.js"></script> 
 	
 	<!-- tagify -->
 	<script src="theme/js/tagify.js"></script>
 	
    
 	<!-- Apex Chart -->
-	<script src="theme/js/moment.js"></script>
-	<script src="theme/js/bootstrap-datetimepicker.min.js"></script>
-	
-	<!-- Vectormap -->
     <script src="theme/js/custom.js"></script>
 	<script src="theme/js/deznav-init.js"></script>
 	<script src="theme/js/demo.js"></script>
     <script src="theme/js/styleSwitcher.js"></script>
 </body>
 
+<!-- Mirrored from w3crm.dexignzone.com/xhtml/task-summary.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 08:00:25 GMT -->
 </html>

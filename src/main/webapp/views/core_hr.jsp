@@ -20,18 +20,7 @@
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="theme/theme/images/favicon.png">
-	<link href="theme/css/bootstrap-select.min.css" rel="stylesheet">
-	<link href="theme/css/jquery.dataTables.min.css" rel="stylesheet">
-	<link href="theme/css/buttons.dataTables.min.css" rel="stylesheet">
-	<!-- Clockpicker -->
-    <link href="theme/css/bootstrap-clockpicker.min.css" rel="stylesheet">
-	<link href="theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-	
-	<!-- tagify-css -->
-	<link href="theme/css/tagify.css" rel="stylesheet">
-	<!-- Style css -->
-    <link href="theme/css/style.css" rel="stylesheet">
-	
+	<%@ include file="ccs_links.jsp" %>
 </head>
 <body>
 
@@ -568,7 +557,7 @@
 		<!--**********************************
             Header start
         ***********************************-->
-		<%@include file="views/header.jsp" %>
+		<%@include file="header.jsp" %>
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -576,7 +565,7 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
-       <%@include file="views/side_navigation.jsp" %>
+       <%@include file="left_side_navigation.jsp" %>
         <!--**********************************
             Sidebar end
         ***********************************-->

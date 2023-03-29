@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <!-- saved from url=(0045)./index.html -->
 <html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="">
-	<meta name="author" content="">
+	<meta name="author" content="">	
 	<meta name="robots" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="W3crm:Customer Relationship Management Admin Bootstrap 5 Template">
@@ -705,6 +706,7 @@
         Preloader start
     ********************-->
     
+    
     <!--*******************
         Preloader end
     ********************-->
@@ -1260,7 +1262,7 @@
             Sidebar start
         ***********************************-->
         
-		<%@ include file="side_navigation.jsp" %>
+		<%@ include file="left_side_navigation.jsp" %>
         <!--**********************************
             Sidebar end
         ***********************************-->
@@ -1268,13 +1270,8 @@
 		<!--**********************************
             Content body start
         ***********************************-->
-       <%-- <%@ include file="body_content.jsp" %>
-		
-        --%>  
-        
-      
-        
-        <!--**********************************
+       <%@ include file="body_content.jsp" %>
+		<!--**********************************
             Content body end
         ***********************************-->
 		<div class="offcanvas offcanvas-end customeoff" tabindex="-1" id="offcanvasExample">
@@ -1290,7 +1287,7 @@
 					<label>Profile Picture</label>
 					<div class="dz-default dlab-message upload-img mb-3">	
 						<form action="./index.html#" class="dropzone">
-							<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<svg width="41" height="80" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M27.1666 26.6667L20.4999 20L13.8333 26.6667" stroke="#DADADA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 								<path d="M20.5 20V35" stroke="#DADADA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 								<path d="M34.4833 30.6501C36.1088 29.7638 37.393 28.3615 38.1331 26.6644C38.8731 24.9673 39.027 23.0721 38.5703 21.2779C38.1136 19.4836 37.0724 17.8926 35.6111 16.7558C34.1497 15.619 32.3514 15.0013 30.4999 15.0001H28.3999C27.8955 13.0488 26.9552 11.2373 25.6498 9.70171C24.3445 8.16614 22.708 6.94647 20.8634 6.1344C19.0189 5.32233 17.0142 4.93899 15.0001 5.01319C12.9861 5.0874 11.015 5.61722 9.23523 6.56283C7.45541 7.50844 5.91312 8.84523 4.7243 10.4727C3.53549 12.1002 2.73108 13.9759 2.37157 15.959C2.01205 17.9421 2.10678 19.9809 2.64862 21.9222C3.19047 23.8634 4.16534 25.6565 5.49994 27.1667" stroke="#DADADA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1631,4 +1628,4 @@
 	
 	
 
-<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M-1 282.348L-1 282.348L41.520089285714285 282.348L83.04017857142857 282.348L124.56026785714286 282.348L166.08035714285714 282.348L207.60044642857142 282.348L249.12053571428572 282.348L290.640625 282.348C290.640625 282.348 290.640625 282.348 290.640625 282.348 "></path></svg><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div class="jqvmap-label" style="display: none;"></div></body></html>
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M-1 282.348L-1 282.348L41.520089285714285 282.348L83.04017857142857 282.348L124.56026785714286 282.348L166.08035714285714 282.348L207.60044642857142 282.348L249.12053571428572 282.348L290.640625 282.348C290.640625 282.348 290.640625 282.348 290.640625 282.348 "></path></svg><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div id="draggable-live-region" aria-relevant="additions" aria-atomic="true" aria-live="assertive" role="log" style="position: fixed; width: 1px; height: 1px; top: -1px; overflow: hidden;"></div><div class="jqvmap-label" style="display: none;"></div></body></html> --%>
