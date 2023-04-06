@@ -2,7 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-  <%String placeholder=request.getParameter("placeholder");
+  <%
   Random rndm_method = new Random();
     char[] password = new char[6];
     
@@ -19,7 +19,6 @@
          values.charAt(rndm_method.nextInt(values.length()));
     }
    
-    
     %>
 
-<input type="" id=" " name="" placeholder="<%=placeholder %>" value="<%=password%>">
+<input type="text" class="form-control" id=" " name="" value="<%=password%>">

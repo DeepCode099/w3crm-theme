@@ -1,12 +1,9 @@
+<%@page import="org.json.JSONObject"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-    <%
-    	String placeholder=request.getParameter("placeholder");
-		String rows=request.getParameter("rows");
-		String cols=request.getParameter("cols");
-		String name=request.getParameter("name");
-		String id=request.getParameter("id"); 
-    %> 
-
-<textarea name = "<%=name %>" type ="text" id= <%=id %> placeholder="<%=placeholder %>"  rows= "<%=rows %>" cols = "<%= cols%>" ></textarea>
+    <% String ob=request.getParameter("jsonObj");
+    	 JSONObject jsonObj = new JSONObject(ob);
+    	 String name = (String)jsonObj.get("name");
+    %>
+	<input class="form-control" type="textarea" id="<%=name %>" name="<%=name %>" placeholder = "<%=name%>">

@@ -1,10 +1,11 @@
+<%@page import="org.json.JSONObject"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-    <%
-		String id=(String)request.getParameter("id");
-		String name=(String)request.getParameter("name");
-		String placeholder=(String)request.getParameter("placeholder");
-    
-    %>
-<input name ="<%=name %>" type ="email" id = "<%=id %>" placeholder = "<%=placeholder%>">
+   <% 
+   String ob=request.getParameter("jsonObj");
+   JSONObject jsonObj = new JSONObject(ob);
+   String name =(String)jsonObj.get("name");
+   
+   %>
+<input type="email" class="form-control" id="<%=name %>" name="<%=name %>" placeholder="<%=name %>"/>
