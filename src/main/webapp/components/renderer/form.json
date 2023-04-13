@@ -126,11 +126,11 @@
         },
         {
             "type":"date",
-            "id":"dateOfJoining",
-            "name":"dateOfJoining",
+            "id":"createDate",
+            "name":"createDate",
             "classes":"form-control",
-            "label":"Date of Joining",
-            "placeholder":"Enter the date of joining",
+            "label":"Create Date",
+            "placeholder":"",
             "suggestion":"Please enter the date of joining",
             "config":{
                 "hidden":false,
@@ -143,11 +143,8 @@
             "errorMessage":"",
             "valid":"",
             "validation":{
-                "required":true,
-                "maxLength":"",
-                "minLength":"",
-                "min":"",
-                "max":""
+                "required":true
+               
             }
         },
         {
@@ -422,5 +419,7 @@
                 "minLength":""
             }
         }
+          
+       
     ]
 }

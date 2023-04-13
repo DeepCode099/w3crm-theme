@@ -1,3 +1,5 @@
+String ob=request.getParameter("jsonObj");
+
 <%@page import="org.json.JSONObject"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -17,12 +19,27 @@ String min = (String)validation.get("min");
 String max = (String)validation.get("max");
 String errorMessage = (String)jsonObj.get("errorMessage");
 boolean required = (boolean)validation.get("required");
+String value =(String)jsonObj.get("value");
   %>
 
 <input type="number" class="form-control" id="<%=name %>" name="<%=name%>" placeholder="<%=placeholder %>" required="<%=required%>" minLength="<%=minLength%>"  maxLength="<%=maxLength%>"/>
 <h6 id="numbercheck"> </h6>
 
+<%
+if(value.equals(" ")){
+	%>
+	<input type="number" class="form-control" id="<%=name%>"
+	name="<%=name%>" placeholder="<%=placeholder%>"
+	required="<%=required%>" minLength="<%=minLength%>"
+	maxLength="<%=maxLength%>"  />
+<%} else{ %>
 
+<input type="number" class="form-control" id="<%=name%>"
+	name="<%=name%>" placeholder="<%=placeholder%>"
+	required="<%=required%>" minLength="<%=minLength%>"
+	maxLength="<%=maxLength%>" value="<%=value%>" />
+<label id="numbercheck"> </label>
+<%} %>
 
 <script>
 $(document).ready(function(){

@@ -1,3 +1,4 @@
+<%@page import="org.json.JSONArray"%>
 <%@page import="org.json.JSONObject"%>
 <%@page import="java.util.Set"%>
 <%@page import="java.util.Iterator"%>
@@ -9,31 +10,33 @@
 	String name =(String)jsonData.get("name");
  	JSONObject data = (JSONObject)jsonData.get("provider");
 	String url=(String)data.get("url");	
+	String urlValue=(String)data.get("value");	
 	String id=(String)data.get("id");	
-	
-/* 	JSONObject validation =(JSONObject)jsonData.get("validation");
-   Set<String> keyset = validation.keySet();
-   Iterator<String> keys = keyset.iterator(); 
-   while(keys.hasNext()){
-   String key = keys.next();
-   Object value = validation.get(key);
-   
- 
-   }
-  */
- %>
- <div id = "container">
 
- </div>
- <div>
-  <label id="container1"></label>
- </div>
-<!-- <input type="checkbox" class="" id="radio1" name="radio1"/> 
- -->
+ %>
+<% 
+ if (url.equals("")){
+	 //Options
+	 JSONArray options =(JSONArray)jsonData.get("options");
+	 for (int i = 0; i<options.length(); i++){
+	 JSONObject optionObj = (JSONObject)options.get(i);
+	 String label = (String)optionObj.get("label");
+	 String optionsValue = (String) optionObj.get("value");
+	 
+ %>
+ <input type="checkbox"  name="<%=name%>" id="<%=name%>" value="<%=optionsValue%>">
+ <label for="<%=name%>"><%=label%></label>
+ <%}%>
+ <%}%>
+<div id="container"></div>
+
 <script>
+
 $(document).ready(function() { 
+	$('input[name=<%=name %>][value=Verified]').attr('checked', 'checked'); 
 	var dataProvider ="<%=url%>";
-	if(dataProvider.length!==0){
+	var providerValue="<%=urlValue%>";
+	if(dataProvider.length!==0 ){
 		$.ajax({	  
 			 type: "GET",
 			    url: dataProvider,
@@ -42,38 +45,33 @@ $(document).ready(function() {
 			    processData: false,
 		        contentType : 'application/json'
 		}).done(function (data){
-			jsonData=data;
 			 $.each(data,function(key,value){
-				 
 				 $('#container')
-			        .append('<input type="checkbox" id= "<%=id%>"  name="<%=id%>"  value='+value+'>')
-			        .append('<label id="id1" for="<%=name %>">'+key+'</label>')
+			        .append('<input type="checkbox" id='+key+' name="<%=name%>" value='+value+'>')
+			        .append('<label for="<%=name%>">'+key+'</label>')
 			        .append(`<br>`);
-			 })
-			 
-		}).fail(function (data ) {
+			 })  
+			 if(providerValue!=null){
+			        loadAll(data,providerValue);
+			}
+		}).fail(function (data) {
 		 console.log(data);
-	      
 		});
-  
    }
 });
-/* $(document).ready(function() { 
-	alert();
-	var is_checked = false;
-	$('input[type="checkbox"]').each(function() {
-	    if ($(this).is(":checked")) {
-	        alert(123);
-	        is_checked = true;
-	    }
-	    else{
-	    	return false
-	    }
-	});
 
-}); */
+function loadAll(data,providerValue){
+	$.each(data,function(key,value){
+	  $(":checkbox").each(function(){
+		if($(this).val()===providerValue){     
+		    $(this).attr("checked","checked");
+		    }
+		});
+	
+	});  
+}
+
 </script>
-
 
 
 
