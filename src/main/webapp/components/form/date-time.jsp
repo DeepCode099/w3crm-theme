@@ -14,12 +14,10 @@
    <%
   if(value.equals(" ")){
   	%>
-  	<input type="date" class="form-control" id="<%=name %>" name="<%=name %>"   placeholder="dd-mm-yyyy" value=""
- min="1997-01-01" max="2030-12-31"/>
+  	<input type="datetime-local" class="form-control" id="<%=name %>" name="<%=name %>"/>
 
   <%} else{ %>
 
-  <input type="date" class="form-control" id="<%=name %>" name="<%=name %>"  value="<%=value %>"   placeholder="dd-mm-yyyy" value=""
- min="1997-01-01" max="2030-12-31"/>
+  <input type="datetime-local" class="form-control" id="<%=name %>" name="<%=name %>"  value="<%=value %>"/>
 
   <%}%>

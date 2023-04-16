@@ -102,6 +102,12 @@
 						<jsp:param value="<%=jsonObj%>" name="jsonObj" />
 					</jsp:include>
 					<%
+					} else if (elementType.equals("dateTime")) {
+					%>
+					<jsp:include page="../components/form/date-time.jsp">
+						<jsp:param value="<%=jsonObj%>" name="jsonObj" />
+					</jsp:include>
+					<%
 					} else if (elementType.equals("text")) {
 					%>
 					<jsp:include page="../components/form/text.jsp">
@@ -161,6 +167,7 @@
 		e.preventDefault();
 		var form = $("#forms")[0];
 		var formElement = formSerialize(form);
+		console.log(formElement);
 		var stringifyForm = JSON.stringify(formElement);
 		console.log(stringifyForm);
 		$.ajax({
