@@ -8,7 +8,6 @@
    String ob=request.getParameter("jsonObj");
 	JSONObject jsonObj = new JSONObject(ob);
 	String name =(String)jsonObj.get("name");
-	
 	String errorMessage = (String)jsonObj.get("errorMessage");
 	JSONObject validation =(JSONObject)jsonObj.get("validation");
      String min = (String)validation.get("minLength");
@@ -16,7 +15,7 @@
      String max = (String)validation.get("minLength");
      boolean required = (boolean)validation.get("required");
      String value =(String)jsonObj.get("value");
-     System.out.print("value" +value);
+    
   %>
 
 <% if (value.equals(" ")){
@@ -35,7 +34,8 @@
 
 <% }%>
 
-  
+
+
 
 
 

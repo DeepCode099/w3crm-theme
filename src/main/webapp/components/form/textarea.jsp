@@ -18,8 +18,6 @@ if(value.equals(" ")){
 	
 <textarea class="form-control"  name="<%=name%>" placeholder="<%=name%>"  rows="<%=rows%>"  cols="<%=cols%>" id="<%=name%>"></textarea>
 <%} else{ %>
-
-
 <textarea class="form-control"  name="<%=name%>" placeholder="<%=name%>"  rows="<%=rows%>"  cols="<%=cols%>" id="<%=name%>" value="<%=value%>">
 	</textarea>
 	<%} %>

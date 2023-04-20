@@ -43,10 +43,174 @@
                 "hidden": false
             },
              "provider": {
+              	 "id" :"country",
+              	 "type":"GET",
+              	 "url":"http://localhost:8081/api/v1/country",
+              	 "value":"india",
+              	 "params":[
+              	 		{
+              	 		"name":"",
+              	 		"value":""
+              	 		
+              	 		},
+              	 		{
+              	 		"name":"",
+              	 		"value":""
+              	 		}
+              	 
+              	 
+              	 ]
+            },
+            "options": [
+                {
+                    "label": "United States",
+                    "value": "USA"
+                },
+                {
+                    "label": "India",
+                    "value": "INDIA"
+                },
+                {
+                    "label": "Canada",
+                    "value": "CANADA"
+                }
+            ],
+            "value": "",
+            "htmlElement": "select",
+            "errorMessage": "",
+            "valid": false,
+            "validation": {
+                "required": true,
+                "maxLength": "",
+                "minLength": ""
+            }
+        },
+        {
+            "type": "select",
+            "id": "country",
+            "name": "country",
+            "label": "Country",
+            "classes":"form-control",
+            "placeholder": "Select Country",
+            "suggestion": "Select a country from the dropdown",
+            "config": {
                 "disabled": false,
                 "readOnly": false,
                 "checked": false,
                 "hidden": false
+            },
+             "provider": {
+              	 "id" :"country",
+              	 "url":"http://localhost:8081/api/v1/country",
+              	 "value":"india",
+              	 "params":[]
+            },
+            "options": [
+                {
+                    "label": "United States",
+                    "value": "USA"
+                },
+                {
+                    "label": "India",
+                    "value": "INDIA"
+                },
+                {
+                    "label": "Canada",
+                    "value": "CANADA"
+                }
+            ],
+            "value": "",
+            "htmlElement": "select",
+            "errorMessage": "",
+            "valid": false,
+            "validation": {
+                "required": true,
+                "maxLength": "",
+                "minLength": ""
+            }
+        },
+        {
+            "type": "select",
+            "id": "state",
+            "name": "state",
+            "label": "state",
+            "classes":"form-control",
+            "placeholder": "Select State",
+            "suggestion": "Select a country from the dropdown",
+            "config": {
+                "disabled": false,
+                "readOnly": false,
+                "checked": false,
+                "hidden": false
+            },
+             "provider": {
+              	 "id" :"state",
+              	  "type":"GET",
+              	 "url":"http://localhost:8081/api/v1/state",
+              	 "value":"india",
+              	 "params":[{
+              	 		"name":"countryId",
+              	 		"value":"91"}]
+            },
+            "options": [
+                {
+                    "label": "United States",
+                    "value": "USA"
+                },
+                {
+                    "label": "India",
+                    "value": "INDIA"
+                },
+                {
+                    "label": "Canada",
+                    "value": "CANADA"
+                }
+            ],
+            "value": "",
+            "htmlElement": "select",
+            "errorMessage": "",
+            "valid": false,
+            "validation": {
+                "required": true,
+                "maxLength": "",
+                "minLength": ""
+            }
+        },
+        {
+            "type": "select",
+            "id": "city",
+            "name": "city",
+            "label": "city",
+            "classes":"form-control",
+            "placeholder": "Select city",
+            "suggestion": "Select a city from the dropdown",
+            "config": {
+                "disabled": false,
+                "readOnly": false,
+                "checked": false,
+                "hidden": false
+            },
+             "provider": {
+              	 "id" :"city",
+              	 "url":"http://localhost:8081/api/v1/city",
+              	 "value":"",
+              	 "params":[
+              	 		{
+              	 		"name":"stateId",
+              	 		"value":"#"
+              	 		
+              	 		},
+              	 		{
+              	 		"name":"stateId",
+              	 		"value":"."
+              	 		},
+              	 		{
+              	 		"name":"stateId",
+              	 		"value":"91"
+              	 		}
+              	 
+              	 
+              	 ]
             },
             "options": [
                 {

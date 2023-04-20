@@ -1,4 +1,54 @@
+<%-- <!DOCTYPE html>
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+ 	
+</head>
+
+<style>
+.error{
+	color:red
+
+}
+
+/* input.error {
+	border: 6px solid orange;
+}
+
+label.error {
+	font-weight: bold;
+	color: purple;
+}
+input.valid {
+	font-weight: bold;
+	font-size: 200%;
+	color: green;
+} */
+
+</style>
+
+<body style="padding:50px;">
+<div></div>
+ <%@ include file="../components/renderer/address.jsp" %>  
+ <%@ include file="../components/renderer/create_file.jsp" %> 
+
+ <div>
+<%@ include file="../components/renderer/create-file.jsp" %> 
+</div>
+
+</body>
+
+<!--  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+ -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+
+</html>
+ --%>
+ 
  <!DOCTYPE html>
 <!-- saved from url=(0045)./index.html -->
 <html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -27,6 +77,11 @@
 	<link href="theme/css/jquery-jvectormap.css" rel="stylesheet">
 	<link href="theme/css/buttons.dataTables.min.css" rel="stylesheet">
 	<link href="theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+ 	
 	
 	<!-- tagify-css -->
 	<link href="theme/css/tagify.css" rel="stylesheet">

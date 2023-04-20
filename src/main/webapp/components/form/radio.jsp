@@ -11,7 +11,7 @@
 	String url = (String)radioDataProvider.get("url");
 	String urlValue = (String)radioDataProvider.get("value");
 	JSONObject validation =(JSONObject)jsonObj.get("validation");
-	 boolean required = (boolean)validation.get("required");
+	 boolean isRequired = (boolean)validation.get("required");
 %>
  	<div id="container2"></div>
 		  
@@ -73,11 +73,11 @@ function loadAllRadio(data,providerValue){
 <script>
 	  $("#forms").validate({
 		    rules: {
-		    	<%=name%>:{ required:<%=required%> }
+		    	<%=name%>:{ required:<%=isRequired%> }
 		  
 		    },
 		    messages: {
-		    	<%=name%>: "Please select a choice",
+		    	<%=name%>: "Please select a option",
 		    },
 		    submitHandler: function(form) {
 		      form.submit();

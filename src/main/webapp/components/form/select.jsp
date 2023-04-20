@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<%@page import="org.json.simple.parser.JSONParser"%>
 <%@page import="org.json.JSONArray"%>
+<%@page import="org.json.JSONObject"%>
 <%@page import="org.json.JSONObject"%>
 
 
@@ -15,15 +15,13 @@
 		boolean required = (boolean)validation.get("required");
 		String requestType = (String) data.get("type");
 		String url = (String) data.get("url");
-		System.out.println("url" + url);
 		String UrlValue = (String) data.get("value");
 		String fieldId = (String) data.get("id");
-		System.out.println("id===" + fieldId);
 		JSONArray params = (JSONArray) data.get("params");
 
 %>
-		<select class="form-control" name="<%=name%>" id="<%=name%>" >
-		<% 
+<select class="form-control" name="<%=name%>" id="<%=name%>">
+	<% 
 		if (url.equals("")){
 			//Options
 		     JSONArray optons =(JSONArray)jsonData.get("options");
@@ -32,15 +30,31 @@
 		     String OptionsLabel = (String)optionObj.get("label");
 		     String OptionsValue = (String) optionObj.get("value");
 		%>
-		<option selected value = "<%=OptionsValue%>"><%=OptionsLabel%></option>
-		<%}%>
-		<%}%>
-		
-		</select>
+	<option selected value="<%=OptionsValue%>"><%=OptionsLabel%></option>
+	<%}%>
+	<%}%>
 
-		<script>
+</select>
+
+<script>
+		// validation
+		$("#forms").validate({
+		    rules: {
+		    	<%=name%>:{ required:<%=required%> }
+		  
+		    },
+		    messages: {
+		    	<%=name%>: "Please select from dropdown",
+		    },
+		    submitHandler: function(form) {
+		      form.submit();
+		    }
+		  });		
+		
+		//data provider
 		     $(document).ready(function() { 
 		    	var dataProvider ="<%=url%>";
+		     	if (dataProvider.length!== 0) { 
 		    	var providerValue="<%=UrlValue%>";
 		    	var params =<%=params%>;
 		
@@ -49,7 +63,7 @@
 		    	}
 		    	
 		    	if(params.length!=0){
-		    		for(var i=0 ;i< params.length; i++){
+		    		for(var i=0; i< params.length; i++){
 		    			 paramObj 	=params[i];
 		    			 paramName 	=paramObj.name;
 		    			 paramValue =paramObj.value;
@@ -68,18 +82,16 @@
 		    		console.log(url);	
 		    		$("#" + id1).empty();
 		    		$("#" + id1).append(new Option("Select", ""));
-		    		console.log("parentid"+parentid);
-		    		console.log(id1);
 		    		var dataProvider =null;
 		    		var requestType = "<%=requestType%>";
 		    		if (parentid != 0) {
-		    		dataProvider = url + parentid;
-		
+		    		dataProvider = url +"/"+parentid;
+		    	
 		    		} else {
+		    			
 		    			dataProvider = url;
+		    			
 		    		}
-		
-		    		if (dataProvider.length !== 0) {
 		    			$.ajax({
 		    				type : requestType,
 		    				url : dataProvider,
@@ -105,14 +117,13 @@
     		   $("#"+paramName).on('change', function(){
     			var childId = "<%=name%>";
     			var parentValue = '';
-    			if(paramValue=="#"){
-    				console.log("if");
-    				 var parentValue = $(this).val();
+    			if(paramValue=="#"+paramName || paramValue=="."+paramName){
+    				 var parentValue = $(paramValue).val();
     				 if(parentValue!=''){
     		 		 load_master_data(childId , parentValue);
     						}
     					}
-    				else{
+    			else{
     				load_master_data(childId , paramValue);
     					}
     						
@@ -121,22 +132,8 @@
 	});
    			
 	</script>
-		<script>
-			$("#forms").validate({
-				    rules: {
-				    	<%=name%>:{ required:<%=required%> }
-				  
-				    },
-				    messages: {
-				    	<%=name%>: "Please select a choice",
-				    },
-				    submitHandler: function(form) {
-				      form.submit();
-				    }
-				  });
-		</script>
-		
-		
-		
-		
-		 
+
+
+
+
+
