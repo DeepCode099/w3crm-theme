@@ -76,22 +76,26 @@ public class ThemeController {
 	
 	@RequestMapping("/address")
 	public String address() {
-		System.out.println("manage clients ");
 		return "address";
 		
 	}
 	
 	@RequestMapping("/create_file")
 	public String createFile() {
-		System.out.println("manage clients ");
 		return "create_file";
 		
 	}
 
 	@RequestMapping("/user_registration")
 	public String userRegistration() {
-		System.out.println("manage clients ");
 		return "user_registration";
+		
+	}
+	
+	@RequestMapping("/createList")
+	public String fileList() {
+		System.out.println("file list");
+		return "createList";
 		
 	}
 	
