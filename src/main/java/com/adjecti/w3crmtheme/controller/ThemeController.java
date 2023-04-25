@@ -98,6 +98,12 @@ public class ThemeController {
 		return "createList";
 		
 	}
+		@RequestMapping("/recruitmentSources")
+	public String recruitmentSourcesList() {
+		System.out.println("recruitmentSources");
+		return "recruitment_sources_list";
+		
+	}
 	
 	
 }
